@@ -1,0 +1,31 @@
+/**
+ * Include font-face fonts here.
+ */
+
+@font-face {
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arvo'), url('fonts/arvo-400.woff') format('woff');
+}
+@font-face {
+    font-family: 'Arvo';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Arvo Bold'), local('Arvo-Bold'), url('fonts/arvo-700.woff') format('woff');
+}
+@font-face {
+    font-family: 'Arvo';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Arvo Italic'), local('Arvo-Italic'), url('fonts/arvo-400i.woff') format('woff');
+}
+@font-face {
+    font-family: 'Arvo';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Arvo Bold Italic'), local('Arvo-BoldItalic'), url('fonts/arvo-700i.woff') format('woff');
+}
+
+
+

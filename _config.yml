@@ -1,0 +1,17 @@
+
+# Name of site
+name: Bouvet
+
+source:       .
+destination:  ./_site
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+exclude: ["node_modules", "package.json", "Project-example-README.md", "README.md", "gulpfile.js"]
+
+

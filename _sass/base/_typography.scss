@@ -1,0 +1,40 @@
+/**
+ * Basic typography style for copy text
+ */
+
+
+p {
+    margin: 0 0 .5em;
+}
+
+h1, h2, h3 {
+    font: {
+        family: $arvo;
+        weight: 400;
+    }
+}
+
+h2,
+th {
+    font: {
+        weight: 400;
+        size: rem( 22px );
+    }
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    border-bottom: 1px solid $light-grey;
+}
+
+th {
+    padding: 10px 0 30px;
+}
+
+td {
+    padding: 20px 0;
+}
