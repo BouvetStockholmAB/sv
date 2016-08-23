@@ -1384,4 +1384,3 @@ _b.cutsTheMustard = (
 
 }( document, jQuery ) );
 
-;( function() { _b.load.js( '//localhost:8088/livereload.js?snipver=1'); }() );
