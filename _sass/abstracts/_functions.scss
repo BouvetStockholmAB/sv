@@ -27,3 +27,8 @@
     @return unquote("url('" + $file + "', true)"); // Force Base 64!
 }
 
+//
+@function uri( $file ) {
+    @return unquote("url('" + $assets + $file + "')");
+}
+

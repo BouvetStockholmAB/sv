@@ -3,6 +3,7 @@
 _temp
 _site
 assets/*-*.js
+assets/dev.css
 
 # Node JS
 node_modules

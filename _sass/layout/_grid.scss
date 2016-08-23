@@ -24,8 +24,12 @@
         padding: 0 15px;
     }
 
+    &--rel {
+        position: relative;
+    }
+
     &--std {
-        max-width: 1308px;
+        max-width: $max-width;
     }
 
     &--pull-in {

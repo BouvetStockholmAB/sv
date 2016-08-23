@@ -1,0 +1,154 @@
+
+.menuTogglerBtn {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    border: none;
+    appearance: none;
+    background-color: transparent;
+    width: 44px;
+    height: 44px;
+}
+
+.hamburger {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: none;
+
+    &__icon {
+        top: 50%;
+        margin-top: -2px;
+
+        &,
+        &:before,
+        &:after {
+            position: absolute;
+            left: 50%;
+            margin-left: -14px;
+            display: block;
+            width: 28px;
+            height: 4px;
+            background-color: $text-color;
+            border-radius: 2px;
+            transition: transform .3s ease, background-color .3s ease;
+        }
+
+        &:before,
+        &:after {
+            content: "";
+        }
+        &:before {
+            top: -8px;
+
+            .menuTogglerBtn:hover .hamburger & {
+                top: -9px;
+            }
+        }
+        &:after {
+            top: 8px;
+
+            .menuTogglerBtn:hover .hamburger & {
+                top: 9px;
+            }
+        }
+
+        .menuToggler:checked~.menuTogglerBtn & {
+            background-color: transparent;
+
+            &:before,
+            &:after {
+                top: 0;
+                background-color: $white;
+            }
+            &:before {
+                transform: rotate( 45deg );
+            }
+            &:after {
+                transform: rotate( -45deg );
+            }
+        }
+
+    }
+}
+
+@keyframes menuFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes menuSlideIn {
+    0% {
+        margin-top: -3em;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+@keyframes menuSlideOut {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 3em;
+    }
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba( 0, 0, 0, .9 );
+
+    align-items: center;
+    justify-content: center;
+
+    .menuToggler:checked~& {
+        display: flex;
+        animation: menuFadeIn .4s cubic-bezier(.455, .03, .4, .955);
+
+        .menu__items {
+            animation: menuSlideIn .6s cubic-bezier(.455, .03, .4, .955);
+        }
+    }
+
+    &__items {
+        @include listReset;
+
+        //text-align: center;
+    }
+
+    &__item {
+        text-align: center;
+    }
+
+    &__itemLnk {
+       color: $white;
+    }
+}
+
+.menu--fadeAway {
+    transition: opacity .3s cubic-bezier(.455, .03, .4, .955);
+    opacity: 0;
+
+    .menu__items {
+        animation: menuSlideOut .5s cubic-bezier(.455, .03, .4, .955) !important;
+        margin-top: 5em;
+    }
+}
+

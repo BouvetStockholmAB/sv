@@ -85,15 +85,16 @@
         vendorjs : [
             '_js/vendor/jquery-3.1.0.min.js',
             '_js/vendor/polyfills.js',
-            '_js/vendor/jquery-custom-plugins.js'
+            '_js/vendor/jquery-custom-plugins.js',
             // '_js/vendor/cookie-monster.custom.js',
             // '_js/vendor/cookies-bar.js',
-            // '_js/vendor/fastclick.js',
+             '_js/vendor/fastclick.js',
         ]
     };
 
     files = {
         sass    : 'main.scss',
+        devsass : 'dev.scss',
         css     : 'main.css',
         lodash  : 'lodash.custom.js',
         sitejs  : 'main-site.js',
@@ -148,7 +149,7 @@
     }
 
     gulp.task( 'css-build-dev', function () {
-        return buildCss( gulp.src( path.join( dir.sass, files.sass ) ) )
+        return buildCss( gulp.src( path.join( dir.sass, files.devsass ) ) )
             .pipe( gulp.dest( dir.dev ) )
             .pipe( gulpif( options.live, connect.reload() ) );
     } );

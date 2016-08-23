@@ -1,3 +1,13 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+
+
+.logo {
+    width: 200px;
+    background: {
+        image: data-uri( "bouvet.png" );
+        repeat: no-repeat;
+        size: 100% auto;
+    }
+}

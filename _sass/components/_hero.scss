@@ -1,0 +1,97 @@
+
+.hero {
+    height: 720px;
+    background: {
+        position: 50% 0;
+        size: auto 620px;
+        repeat: no-repeat;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 50px;
+
+    &--small {
+        display: none;
+
+        @media ( max-width: 822px ) {
+            display: block;
+        }
+
+        @media ( min-resolution: 192dpi ) and ( max-width: 822px ) {
+            &.hero--1x {
+                display: none;
+            }
+        }
+
+        @media ( max-resolution: 191dpi ) and ( max-width: 822px ) {
+            &.hero--2x {
+                display: none;
+            }
+        }
+    }
+
+    &--large {
+        display: block;
+
+        @media ( min-resolution: 192dpi ) {
+            &.hero--1x {
+                display: none;
+            }
+        }
+
+        @media ( max-resolution: 191dpi ) {
+            &.hero--2x {
+                display: none;
+            }
+        }
+
+        @media ( max-width: 822px ) {
+            display: none;
+        }
+    }
+
+    &__quote {
+        flex-basis: 50%;
+        display: flex;
+        //justify-content: center;
+        align-items: stretch;
+        padding: 50px 0;
+
+        &__wrap {
+            background-color: $black;
+            color: $white;
+            flex-basis: 100%;
+            padding: 25px;
+        }
+        blockquote {
+            &::before {
+                content: "“";
+            }
+            &::after {
+                content: "”";
+            }
+        }
+    }
+
+    &__svlogo {
+        $x: 100px;
+        position: absolute;
+        top: 550px;
+        left: 50%;
+        margin-left: ( $x / 2 ) * -1;
+        @include imageReplace( $x, $x );
+        background: {
+            color: $white;
+            image: uri("sitevision-logo-txt.svg");
+            position: 50% 50%;
+            size: ( ( $x + ( $x / 5 ) ) / 2 ) auto;
+        }
+        border-radius: $x / 2;
+    }
+
+    &__txt {
+        flex-basis: 50%;
+        background-color: grey;
+    }
+}

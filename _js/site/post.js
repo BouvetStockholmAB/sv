@@ -42,18 +42,12 @@
 
     };
 
-    /*
-
-    // Uncomment to use, also make sure fastclick.js is included in gulpfile.js.
-
     $( function () {
         _b.attachFastClick( [
-            d.querySelector( '.hamburger' ),
-            $( '.searchBox__submit' )
+            d.querySelector( '.hamburger' )
+            //, $( '.searchBox__submit' )
         ] );
     } );
 
-    */
-    
 }( document, jQuery ) );
 
