@@ -1,3 +1,13 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+[role=contentinfo] {
+    background-color: $black;
+    min-height: 370px;
+    background: {
+        position: 100% 100%;
+        repeat: no-repeat;
+        size: 370px auto; // 740 x 736
+    }
+}

@@ -2,12 +2,18 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
+[role=banner] {
+    height: 56px;
+}
+
 
 .logo {
-    width: 200px;
+    @include imageReplace( 82px, 23px );
     background: {
-        image: data-uri( "bouvet.png" );
-        repeat: no-repeat;
-        size: 100% auto;
+        image: data-uri( "bouvet-logo.svg" );
     }
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    margin-top: -12px;
 }

@@ -1,59 +1,113 @@
 
 .hero {
-    height: 720px;
-    background: {
-        position: 50% 0;
-        size: auto 620px;
-        repeat: no-repeat;
-    }
+    position: relative;
+    z-index: 1;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-end;
+    align-items: flex-start;
+    height: 228px;
     padding: 0 50px;
 
-    &--small {
-        display: none;
+    @media ( min-width: 768px ) {
+        height: 620px;
+    }
 
-        @media ( max-width: 822px ) {
-            display: block;
+    &__img {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: {
+            position: 50% 50%;
+            size: auto 100%;
+            size: cover;
+            repeat: no-repeat;
         }
 
-        @media ( min-resolution: 192dpi ) and ( max-width: 822px ) {
-            &.hero--1x {
+        &--small1x {
+            display: block;
+        }
+        &--small2x,
+        &--large1x,
+        &--large2x {
+            display: none;
+        }
+
+        @media ( min-resolution: 192dpi ) and ( min-width: 480px ) {
+            &--small2x {
+                display: block;
+            }
+            &--small1x,
+            &--large1x,
+            &--large2x {
                 display: none;
             }
         }
 
-        @media ( max-resolution: 191dpi ) and ( max-width: 822px ) {
-            &.hero--2x {
+        @media ( min-width: 768px ) {
+            &--large1x {
+                display: block;
+            }
+            &--small1x,
+            &--small2x,
+            &--large2x {
+                display: none;
+            }
+        }
+
+        @media ( min-resolution: 192dpi ) and ( min-width: 1308px ) {
+            &--large2x {
+                display: block;
+            }
+            &--small1x,
+            &--small2x,
+            &--large1x {
                 display: none;
             }
         }
     }
 
-    &--large {
-        display: block;
+    &__imgTxt,
+    &__content {
+        position: relative;
+        z-index: 2;
+    }
 
-        @media ( min-resolution: 192dpi ) {
-            &.hero--1x {
-                display: none;
-            }
-        }
+    &__imgTxt {
+        min-height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-        @media ( max-resolution: 191dpi ) {
-            &.hero--2x {
-                display: none;
-            }
+    &__content {
+        //min-height: 50%;
+        display: table;
+        margin: 0 50px;
+        //display: flex;
+        //justify-content: center;
+        //align-items: flex-end;
+        @media ( min-width: 768px ) {
+            margin-top: -300px;
+            min-height: 310px;
         }
+    }
 
-        @media ( max-width: 822px ) {
-            display: none;
-        }
+    &__quote,
+    &__txt {
+        display: table-cell;
+        width: 50%;
+        vertical-align: bottom;
     }
 
     &__quote {
         flex-basis: 50%;
-        display: flex;
+        //display: flex;
         //justify-content: center;
         align-items: stretch;
         padding: 50px 0;
@@ -77,8 +131,10 @@
     &__svlogo {
         $x: 100px;
         position: absolute;
-        top: 550px;
+        z-index: 3;
+        top: 50%;
         left: 50%;
+        margin-top: ( $x / 2 ) * -1;
         margin-left: ( $x / 2 ) * -1;
         @include imageReplace( $x, $x );
         background: {
@@ -90,8 +146,26 @@
         border-radius: $x / 2;
     }
 
+    &__heading {
+        margin: 0;
+        font: {
+            size: rem( 70px, true );
+            weight: 700;
+        }
+        color: $black;
+    }
+
+    &__tagline {
+        margin: 0;
+        font: {
+            size: rem( 22px, true );
+            weight: 400;
+        }
+        color: $black;
+    }
+
     &__txt {
         flex-basis: 50%;
-        background-color: grey;
+        background-color: $light-grey;
     }
 }

@@ -33,114 +33,29 @@
 
     <div class="ct ct--std ct--rel" role="banner">
 
-        <div class="logo">Bouvet</div>
-
-        <div role="navigation">
-
-            <input type="checkbox"
-                   id="menuToggler"
-                   class="menuToggler visuallyhidden"
-                   aria-hidden="true"
-                   tabindex="-1">
-
-            <button id="menuTogglerBtn"
-                    class="menuTogglerBtn"
-                    aria-controls="menu"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    tabindex="0">
-                <span class="hamburger">
-                    <span class="visuallyhidden">Visa och dölj huvudmeny</span>
-                    <span class="hamburger__icon"></span>
-                </span>
-            </button>
-
-            <div id="menu"
-                 class="menu">
-
-                <ul class="menu__items">
-
-                    <li class="menu__item">
-                        <a href="#" class="menu__itemLnk">Aasdasd asasd</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__itemLnk">Bujabnsdolmasd</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__itemLnk">Ckakslfof</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__itemLnk">Dokmmasdjh ajasjd</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__itemLnk">Elkak asjsj</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div><!-- role=navigation -->
-
+        {% include header.html %}
 
     </div><!-- role=banner -->
 
 
     <div class="ct ct--std" role="main">
 
-        <div class="hero">
-            <style>
-                .hero {
-                    background-image: url( 'assets/img/cat-1308x620.jpeg' );
-                }
-                @media ( min-resolution: 192dpi ) and ( min-width: 1308px ) {
-                    .hero {
-                        background-image: url( 'assets/img/cat-2616x1240.jpeg' );
-                    }
-                }
-            </style>
-            <div class="hero__quote">
-                <div class="hero__quote__wrap">
-                    <blockquote>Sitaat balha hahahageg Vi är jätte bäst. orem ipsum</blockquote>
-                </div>
-            </div>
-
-            <div class="hero__svlogo">SiteVision</div>
-
-            <div class="hero__txt">
-
-                <p>Bouvet är ett skandinaviskt konsultbolag med tjänster inom IT, interaktiv kommunikation och
-                   rådgivning.
-
-                <p>Vi är strategisk samarbetspartner med en rad företag och myndigheter och hjälper dem med att forma
-                   digitala produkter och lösningar. Kunderna ser ett värde i Bouvets förståelse för deras verksamhet
-                   och att vi med vår bredd i tjänsterna kan erbjuda totalleverans. Vi strävar efter kontinuitet och
-                   långvariga relationer med våra kunder.
-
-                <p>Bouvet har mer än 1000 anställda på 14 kontor i Sverige och Norge. Tjänsteleveranser «nära kund» är
-                   avgörande för kvalité och optimal leverans. Därför utnyttjas kompetensen inom koncernen mellan våra
-                   kontor «på tvären», medan alla projekt förankras lokalt vid det Bouvet-kontor som är närmast din
-                   verksamhet.
-
-                <p>Vår ambition, att vara det mest trovärdiga konsultbolaget med de mest nöjda kunderna och
-                   medarbetarna, är en viktig försäkring för båda kunder och anställda. År 2014 blev vi utnämnda till en
-                   av Sveriges bästa arbetsplatser av Great Place to Work Institute.
-            </div>
-
-        </div>
-
-
-        <h1>{{ site.name }}</h1>
-
         {{ content }}
 
     </div><!-- role=main -->
 
-    <div role="contentinfo">
-
-        Footer
-
-    </div><!-- role=contentinfo -->
-
 </div>
+
+<div role="contentinfo"
+     style="background-image: url( 'assets/img/bouvetoya.png' );">
+
+    <div class="ct ct--std ct--rel">
+
+        {% include footer.html %}
+
+    </div>
+
+</div><!-- role=contentinfo -->
 
 </body>
 </html>
