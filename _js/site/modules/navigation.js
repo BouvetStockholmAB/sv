@@ -15,21 +15,37 @@
         $menuToggleCheckbox.prop( 'checked', menuVisible );
     }
 
+    function showMenu() {
+        $menu.removeClass( 'menu--fadeAway' );
+        $body.addClass( 'preventScroll' );
+        $menuToggler.attr( 'aria-expanded', true );
+        toggleMenu();
+    }
+    function hideMenu() {
+        $menu.addClass( 'menu--fadeAway' );
+        $body.removeClass( 'preventScroll' );
+        $menuToggler.attr( 'aria-expanded', false );
+        setTimeout( toggleMenu, 500 );
+    }
+
+
+//    $menu.find( '.menu__items' ).on( 'click', function ( e ) {
+//        e.stopPropagation();
+//    } );
+
+    $menu.on( 'click', function () {
+        hideMenu();
+    } );
+
+
+
     $menuToggler.on( 'click', _b.throttle( function () {
         menuVisible = $menuToggleCheckbox.prop( 'checked' );
 
         if ( !menuVisible ) {
-            // Show menu
-            $menu.removeClass( 'menu--fadeAway' );
-            $body.addClass( 'preventScroll' );
-            $menuToggler.attr( 'aria-expanded', true );
-            toggleMenu();
+            showMenu();
         } else {
-            // Hide menu
-            $menu.addClass( 'menu--fadeAway' );
-            $body.removeClass( 'preventScroll' );
-            $menuToggler.attr( 'aria-expanded', false );
-            setTimeout( toggleMenu, 500 );
+            hideMenu();
         }
 
     }, 510 ) );

@@ -7,18 +7,34 @@ p {
     margin: 0 0 .5em;
 }
 
-h1, h2, h3 {
+
+h1, h2, h3,
+.heading {
     font: {
         family: $arvo;
         weight: 400;
     }
 }
 
-h2,
+h2 {
+    font: {
+        weight: 400;
+        size: rem( 22px );
+    }
+    margin: 1em 0 .5em;
+}
+
 th {
     font: {
         weight: 400;
         size: rem( 22px );
+    }
+}
+
+.heading {
+
+    &--large {
+        font-size: rem( 50px, true );
     }
 }
 

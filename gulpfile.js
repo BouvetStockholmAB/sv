@@ -88,7 +88,8 @@
             '_js/vendor/jquery-custom-plugins.js',
             // '_js/vendor/cookie-monster.custom.js',
             // '_js/vendor/cookies-bar.js',
-             '_js/vendor/fastclick.js',
+             '_js/vendor/jquery.smooth-scroll.js',
+             '_js/vendor/fastclick.js'
         ]
     };
 

@@ -1,0 +1,94 @@
+
+.block {
+    position: relative;
+    z-index: 1;
+
+    &--largeTxtBlock {
+        text-align: center;
+        font-size: rem( 22px, true );
+        margin: 80px 0;
+    }
+
+    &--img {
+        position: relative;
+        z-index: 2;
+        padding: percentage( 860 / 828 ) 0 0;
+
+        background: {
+            color: $bouvet-orange;
+        };
+
+
+    }
+}
+
+.blockBg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: {
+        size: 100% auto;
+        size: cover;
+        position: 50% 50%;
+        repeat: no-repeat;
+    };
+    opacity: 1;
+    transition: opacity .3s;
+
+    .block.active & {
+        opacity: 0;
+    }
+
+    &--1x { display: block; }
+    &--2x { display: none; }
+
+    @media ( min-resolution: 192dpi ) {
+        &--1x { display: none; }
+        &--2x { display: block; }
+    }
+
+    &__txt {
+        position: absolute;
+        z-index: 2;
+        right: 16px;
+        bottom: 0;
+        left: 16px;
+        padding: 10px 10px 50px;
+        transition: all .3s;
+        cursor: pointer;
+        background-position: 150% -150%;
+        h2,
+        p {
+            font: {
+                family: $avenir;
+                size: rem( 22px, true );
+            }
+            color: $white;
+            margin: 0;
+        }
+
+        p {
+            font-size: rem( 15px, true );
+        }
+
+    }
+
+
+    .block:not(.active):hover & {
+        cursor: pointer;
+
+        ~ .blockBg__txt {
+            padding-bottom: 100px;
+            background: {
+                color: rgba( $white, .2 );
+                image: data-uri( "triangle.svg" );
+                position: right top;
+                repeat: no-repeat;
+                size: 25px auto;
+            }
+        }
+    }
+}

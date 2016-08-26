@@ -52,4 +52,9 @@ p {
 
 blockquote {
     margin: 0;
+    font: {
+        family: $avenir;
+        weight: 300;
+        size: rem( 22px, true );
+    }
 }

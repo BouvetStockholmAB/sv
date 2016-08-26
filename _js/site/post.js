@@ -51,3 +51,18 @@
 
 }( document, jQuery ) );
 
+// ==|== Smooth scroll for anchor links ========================================================= //
+
+( function ( $ ) {
+
+    'use strict';
+
+    $( function () {
+
+        $( '#menu' )
+            .find( 'a[href*="#"]:not([href="#"])' )
+            .smoothScroll( { preventDefault: false } );
+
+    } );
+
+}( jQuery ) );

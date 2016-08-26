@@ -27,7 +27,8 @@ $assets: "/sv/assets/img/" !default;
 
 // 5. Components
 @import 'components/button',
-        'components/hero';
+        'components/hero',
+        'components/content-blocks';
         // 'components/cookies-bar';
 
 // 6. Page-specific styles

@@ -37,7 +37,7 @@
             display: none;
         }
 
-        @media ( min-resolution: 192dpi ) and ( min-width: 480px ) {
+        @media ( min-resolution: 192dpi ) and ( min-width: 460px ) {
             &--small2x {
                 display: block;
             }
@@ -59,7 +59,7 @@
             }
         }
 
-        @media ( min-resolution: 192dpi ) and ( min-width: 1308px ) {
+        @media ( min-resolution: 192dpi ) and ( min-width: $max-width ) {
             &--large2x {
                 display: block;
             }
@@ -86,38 +86,55 @@
     }
 
     &__content {
-        //min-height: 50%;
-        display: table;
-        margin: 0 50px;
-        //display: flex;
-        //justify-content: center;
-        //align-items: flex-end;
-        @media ( min-width: 768px ) {
-            margin-top: -300px;
-            min-height: 310px;
+        margin: 0 0 20px;
+
+        @include media-small-and-up {
+            margin: -50px 25px 50px;
+        }
+
+
+        @include media-large-and-up {
+            margin: -200px 50px 80px;
+            display: flex;
         }
     }
 
     &__quote,
     &__txt {
-        display: table-cell;
-        width: 50%;
-        vertical-align: bottom;
+        flex-basis: 50%;
     }
 
     &__quote {
-        flex-basis: 50%;
-        //display: flex;
-        //justify-content: center;
-        align-items: stretch;
-        padding: 50px 0;
+        display: flex;
+
+
+        @include media-large-and-up {
+            margin: 50px 0;
+        }
 
         &__wrap {
-            background-color: $black;
-            color: $white;
             flex-basis: 100%;
-            padding: 25px;
         }
+    }
+
+    &__txt {
+        min-height: 200px;
+    }
+
+    &__quote {
+
+
+        background-color: $black;
+
+        &__wrap {
+            color: $white;
+            padding: 30px;
+
+            @include media-medium-and-up {
+                padding: 70px 70px 70px 50px;
+            }
+        }
+
         blockquote {
             &::before {
                 content: "“";
@@ -128,22 +145,43 @@
         }
     }
 
+    &__txt {
+        background-color: $light-grey;
+        padding: 30px;
+
+        @include media-medium-and-up {
+            padding: 50px 70px;
+        }
+
+    }
+
     &__svlogo {
         $x: 100px;
+        @include imageReplace( $x, $x );
+        display: none;
         position: absolute;
         z-index: 3;
-        top: 50%;
-        left: 50%;
+        top: 200px;
+        right: -40px;
         margin-top: ( $x / 2 ) * -1;
         margin-left: ( $x / 2 ) * -1;
-        @include imageReplace( $x, $x );
+
         background: {
             color: $white;
-            image: uri("sitevision-logo-txt.svg");
+            image: uri("css/sitevision-logo-txt.svg");
             position: 50% 50%;
             size: ( ( $x + ( $x / 5 ) ) / 2 ) auto;
         }
         border-radius: $x / 2;
+
+        @include media-medium-and-up {
+            display: block;
+        }
+        @include media-large-and-up {
+            top: 50%;
+            left: 50%;
+            right: auto;
+        }
     }
 
     &__heading {
@@ -162,10 +200,5 @@
             weight: 400;
         }
         color: $black;
-    }
-
-    &__txt {
-        flex-basis: 50%;
-        background-color: $light-grey;
     }
 }

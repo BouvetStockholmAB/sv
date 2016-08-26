@@ -5,10 +5,10 @@
 @mixin columns {
     display: flex;
     justify-content: space-between;
-    margin: 0 -15px;
+    margin: 0 -16px;
 
     .col {
-        margin: 0 15px 15px;
+        margin: 0 16px 16px;
     }
 }
 
@@ -17,11 +17,11 @@
 
     .col {
         width: 100%;
-        margin: 0 0 15px;
+        margin: 0 0 16px;
     }
 
     &--contentwrap {
-        padding: 0 15px;
+        padding: 0 16px;
     }
 
     &--rel {
@@ -33,7 +33,7 @@
     }
 
     &--pull-in {
-        padding: 0 15px;
+        padding: 0 16px;
 
         @include media-small-and-up {
             padding: 0 35px;
