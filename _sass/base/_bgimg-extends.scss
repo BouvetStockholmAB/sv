@@ -1,5 +1,9 @@
 
 // Example. See _buttons.scss for usage.
-%like-svg {
-    background-image: data-uri("like.svg");
+%triangle-svg {
+    background-image: data-uri( "triangle.svg" );
+}
+
+%x-svg {
+    background-image: data-uri( "x.svg" );
 }

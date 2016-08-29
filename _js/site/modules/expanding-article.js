@@ -7,14 +7,16 @@
     var $expArticles = $( '.js-expanding-article' );
 
 
-    $expArticles.on( 'click', function () {
+    $expArticles.on( 'click', function ( e ) {
 
-        var $this = $( this ),
+        e.preventDefault();
+
+        var $this      = $( this ),
             $container = $this.closest( '.ct' ),
-            $article = $this.find( '.js-article' ).clone().removeClass( 'visuallyhidden' ),
+            $article   = $this.find( '.js-article' ).clone().removeClass( 'visuallyhidden' ),
             id, $articleContainer, articleCtId;
 
-        id = $container.attr( 'id' );
+        id          = $container.attr( 'id' );
         articleCtId = id + '-article';
 
         $articleContainer = $( doc.getElementById( articleCtId ) );
@@ -26,12 +28,36 @@
 
         $this.closest( '.ct' ).find( '.active' ).removeClass( 'active' );
         $this.addClass( 'active' );
-        $articleContainer.html( $article );
+        $articleContainer
+            .hide()
+            .html( $article )
+            .showVertical();
 
         $.smoothScroll( {
             scrollTarget: '#' + articleCtId
         } );
 
     } );
+
+    $( '.ct' ).on( 'click', '.featureArticle__close__btn', function ( e ) {
+        e.preventDefault();
+        var $articleContainer = $( this ).closest( '.ct' ),
+            $active, $container, id, articleCtId;
+
+        articleCtId = $articleContainer.attr( 'id' );
+        id = articleCtId.replace( '-article', '' );
+
+        $container = $( '#' + id );
+
+        $articleContainer.hideVertical();
+
+        $container.find( '.active' ).removeClass( 'active' );
+
+        $.smoothScroll( {
+            scrollTarget: '#' + id
+        } );
+
+    } );
+
 
 }( document, jQuery ) );

@@ -1,0 +1,76 @@
+{
+    "customers": [
+        {
+            "name": "Affinion International",
+            "href": "#"
+        },
+        {
+            "name": "Arento",
+            "href": "#"
+        },
+        {
+            "name": "Bergslagens kommunalteknik",
+            "href": "#"
+        },
+        {
+            "name": "Hässleholms kommun",
+            "href": "#"
+        },
+        {
+            "name": "Järfälla kommun",
+            "href": "#"
+        },
+        {
+            "name": "Ale kommun",
+            "href": "#"
+        },
+        {
+            "name": "Falkenbergs kommun",
+            "href": "#"
+        },
+        {
+            "name": "Fria läroverken",
+            "href": "#"
+        },
+        {
+            "name": "Forshaga kommun",
+            "href": "#"
+        },
+        {
+            "name": "Gullspångs kommun",
+            "href": "#"
+        },
+        {
+            "name": "Kunskapsskolan",
+            "href": "#"
+        },
+        {
+            "name": "Mariestad kommun",
+            "href": "#"
+        },
+        {
+            "name": "Nora kommun",
+            "href": "#"
+        },
+        {
+            "name": "Nykvarns kommun",
+            "href": "#"
+        },
+        {
+            "name": "Tranås kommun",
+            "href": "#"
+        },
+        {
+            "name": "Töreboda kommun",
+            "href": "#"
+        },
+        {
+            "name": "Upplands Väsby kommun",
+            "href": "#"
+        },
+        {
+            "name": "Nobina",
+            "href": "#"
+        }
+    ]
+}

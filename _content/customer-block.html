@@ -1,0 +1,66 @@
+<div class="block block--small block--img js-expanding-article">
+
+    <div class="blockBg blockBg--1x"
+         style="background-image: url( '{{ site.data.blocks[include.param].img1x }}' );"></div>
+    <div class="blockBg blockBg--2x"
+         style="background-image: url( '{{ site.data.blocks[include.param].img2x }}' );"></div>
+
+    <div class="blockBg__txt">
+        <h2>{{ site.data.blocks[include.param].heading }}</h2>
+        <p>{{ site.data.blocks[include.param].text }}</p>
+    </div>
+
+    <div class="js-article visuallyhidden">
+
+
+
+        <div class="featureArticle"
+             style="background-image: url('{{ site.data.blocks[include.param].article.imgBg }}')">
+
+            <div class="featureArticle__preamble">
+                <h2 class="featureArticle__heading">{{ site.data.blocks[include.param].article.heading }}</h2>
+                <p>{{ site.data.blocks[include.param].article.preamble }}</p>
+            </div>
+
+            <div class="featureArticle__articleWrapper">
+                <div class="featureArticle__article">
+                    <div class="featureArticle__article__content">
+
+                        {{ site.data.blocks[include.param].article.html }}
+
+                        {% if site.data.blocks[include.param].article.links %}
+                        <ul class="featureArticle__links">
+                            {% for link in site.data.blocks[include.param].article.links %}
+                            <li class="featureArticle__links__item"><a href="{{ link.href }}" class="btn">{{ link.text }}</a></li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+
+                    </div>
+
+
+                    <div class="featureArticle__article__aside">
+                        {% if site.data.blocks[include.param].article.quote %}
+                        <blockquote class="featureArticle__quote">
+                            {{ site.data.blocks[include.param].article.quote }}
+                        </blockquote>
+                        {% endif %}
+                    </div>
+
+                </div>
+
+                {% if site.data.blocks[include.param].article.screen %}
+                <img src="{{ site.data.blocks[include.param].article.screen }}"  class="featureArticle__screen" alt="">
+                {% endif %}
+
+            </div>
+
+            <div class="featureArticle__close">
+                <button class="featureArticle__close__btn">Stäng</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

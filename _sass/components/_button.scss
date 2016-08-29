@@ -2,6 +2,34 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 
-.foo {
-    @extend %like-svg;
+//.foo {
+//    @extend %like-svg;
+//}
+
+button,
+.btn {
+    display: inline-block;
+    appearance: none;
+    cursor: pointer;
+    font: {
+        family: $avenir;
+        size: rem( 15px, true );
+    }
+    line-height: 1;
+    color: $black;
+    border: 1px solid $black;
+    text-decoration: none;
+    padding: 17px 50px;
+    margin: 0;
+
+    &:hover, &:focus {
+        color: $bouvet-orange;
+        border-color: $bouvet-orange;
+    }
+
+    &:active {
+        color: $white;
+        background-color: $bouvet-orange;
+        border-color: $bouvet-orange;
+    }
 }

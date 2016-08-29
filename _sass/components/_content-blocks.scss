@@ -12,13 +12,16 @@
     &--img {
         position: relative;
         z-index: 2;
-        padding: percentage( 860 / 828 ) 0 0;
-
+        padding: percentage( 860 / 1274 ) 0 0;
         background: {
             color: $bouvet-orange;
         };
 
-
+        .ct--3col & {
+            @include media-medium-and-up {
+                padding: percentage( 860 / 828 ) 0 0;
+            }
+        }
     }
 }
 
@@ -59,7 +62,8 @@
         padding: 10px 10px 50px;
         transition: all .3s;
         cursor: pointer;
-        background-position: 150% -150%;
+        background-position: 100% -100%;
+
         h2,
         p {
             font: {
@@ -82,13 +86,50 @@
 
         ~ .blockBg__txt {
             padding-bottom: 100px;
+            @extend %triangle-svg;
             background: {
                 color: rgba( $white, .2 );
-                image: data-uri( "triangle.svg" );
                 position: right top;
                 repeat: no-repeat;
                 size: 25px auto;
             }
         }
     }
+}
+
+.tableList {
+    @include listReset;
+    border-top: 1px solid $light-grey;
+    columns: 1;
+    column-gap: 0;
+    margin: 0 0 70px 0;
+
+    @include media-small-and-up {
+        columns: 2;
+    }
+    @include media-large-and-up {
+        columns: 3;
+    }
+
+    &__heading {
+        font: {
+            family: $avenir;
+            weight: 400;
+            size: rem(22px);
+        }
+        line-height: ( 55 / 22 );
+        margin: 50px 0 0;
+    }
+
+    &__item {
+        display: block;
+        line-height: ( 55 / 15 );
+        border-bottom: 1px solid $light-grey;
+    }
+
+    &__lnk {
+        color: $black;
+        text-decoration: none;
+    }
+
 }
