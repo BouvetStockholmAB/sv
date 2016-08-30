@@ -1615,7 +1615,6 @@ _b.cutsTheMustard = (
 
     var $expArticles = $( '.js-expanding-article' );
 
-
     $expArticles.on( 'click', function ( e ) {
 
         e.preventDefault();
@@ -1651,7 +1650,7 @@ _b.cutsTheMustard = (
     $( '.ct' ).on( 'click', '.featureArticle__close__btn', function ( e ) {
         e.preventDefault();
         var $articleContainer = $( this ).closest( '.ct' ),
-            $active, $container, id, articleCtId;
+            $container, id, articleCtId;
 
         articleCtId = $articleContainer.attr( 'id' );
         id = articleCtId.replace( '-article', '' );
@@ -1790,4 +1789,4 @@ _b.cutsTheMustard = (
 
     } );
 
-}( jQuery ) );;( function() { _b.load.js( '//localhost:8088/livereload.js?snipver=1'); }() );
+}( jQuery ) );
