@@ -70,26 +70,27 @@
     };
 
     dir = {
-        dev      : 'assets',
-        dist     : 'assets',
-        sass     : '_sass',
-        images   : '_images/', // Must use ending slash!
-        resources: '_resources/',
-        hintedjs : '_js/site',
-        sitejs   : [
+        dev        : 'assets',
+        dist       : 'assets',
+        sass       : '_sass',
+        images     : '_images/', // Must use ending slash!
+        assetImages: 'assets/img/', // Must use ending slash!
+        resources  : '_resources/',
+        hintedjs   : '_js/site',
+        sitejs     : [
             '_js/site/pre.js',
             '_js/site/modules/**/*.js',
             '_js/site/post.js'
         ],
-        temp     : '_temp',
-        vendorjs : [
+        temp       : '_temp',
+        vendorjs   : [
             '_js/vendor/jquery-3.1.0.min.js',
             '_js/vendor/polyfills.js',
             '_js/vendor/jquery-custom-plugins.js',
             // '_js/vendor/cookie-monster.custom.js',
             // '_js/vendor/cookies-bar.js',
-             '_js/vendor/jquery.smooth-scroll.js',
-             '_js/vendor/fastclick.js'
+            '_js/vendor/jquery.smooth-scroll.js',
+            '_js/vendor/fastclick.js'
         ]
     };
 
@@ -120,9 +121,9 @@
                          ( ( useCacheBuster ) ? ' rev ' + timestamp : '' ) );
 
             return gulp.src( [
-                           _devDir( files.js ),
-                           _devDir( files.css )
-                       ], { base: dir.dev } )
+                _devDir( files.js ),
+                _devDir( files.css )
+            ], { base: dir.dev } )
                        .pipe( gulpif( useCacheBuster,
                            rename( function ( path ) {
                                path.basename += '-' + timestamp;
@@ -161,6 +162,15 @@
     } );
 
     gulp.task( 'imgoptimize', function () {
+        gulp.src( path.join( dir.assetImages, '/**/*' ) )
+            .pipe( imagemin( {
+                progressive: true,
+                svgoPlugins: [
+                    { removeViewBox: false },
+                    { cleanupIDs: false }
+                ]
+            } ) )
+            .pipe( gulp.dest( dir.assetImages ) );
         return gulp.src( path.join( dir.images, '/**/*' ) )
                    .pipe( imagemin( {
                        progressive: true,
@@ -189,8 +199,8 @@
 
     gulp.task( 'lodash-build', function () {
         return gulp.src( dir.sitejs, {
-                       buffer: false
-                   } )
+            buffer: false
+        } )
                    .pipe( lodashBuilder( {
                        target  : path.join( dir.temp, files.lodash ),
                        settings: {}
@@ -217,18 +227,18 @@
 
     gulp.task( 'alljs-concat', [ 'sitejs-concat', 'lodash-build', 'vendorjs-concat' ], function () {
         return gulp.src( [
-                       _devDir( files.vendorjs ),
-                       _devDir( files.sitejs )
-                   ] )
+            _devDir( files.vendorjs ),
+            _devDir( files.sitejs )
+        ] )
                    .pipe( concat( files.js ) )
                    .pipe( gulp.dest( dir.dev ) );
     } );
 
     function jsBuildDev() {
         return gulp.src( [
-                       _devDir( files.vendorjs ),
-                       _devDir( files.sitejs )
-                   ] )
+            _devDir( files.vendorjs ),
+            _devDir( files.sitejs )
+        ] )
                    .pipe( concat( files.js ) )
                    .pipe( gulpif( options.live, insert.append( _getLiveReloadJs() ) ) )
                    .pipe( gulp.dest( dir.dev ) )
@@ -239,17 +249,17 @@
 
     gulp.task( 'vendorjs-build-dev', [ 'vendorjs-concat' ], function () {
         return gulp.src( [
-                       _devDir( files.vendorjs ),
-                       _devDir( files.sitejs )
-                   ] )
+            _devDir( files.vendorjs ),
+            _devDir( files.sitejs )
+        ] )
                    .pipe( concat( files.js ) )
                    .pipe( gulp.dest( dir.dev ) );
     } );
 
     gulp.task( 'js-build-dist', [ 'jshint', 'jscs', 'alljs-concat' ], function () {
         return gulp.src( [
-                       _devDir( files.js )
-                   ] )
+            _devDir( files.js )
+        ] )
                    .pipe( gulp.dest( dir.dev ) );
 
     } );

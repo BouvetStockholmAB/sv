@@ -9,6 +9,26 @@
         margin: 80px 0;
     }
 
+    &--quoteBlock {
+        background-color: $light-grey;
+        padding: 80px 0 40px;
+        margin-bottom: 0;
+        font-size: rem( 15px, true );
+
+        blockquote {
+            font-size: rem( 22px, true );
+            max-width: 40em;
+            margin: 0 auto 80px;
+
+            &::before {
+                content: "“";
+            }
+            &::after {
+                content: "”";
+            }
+        }
+    }
+
     &--img {
         position: relative;
         z-index: 2;
@@ -128,8 +148,113 @@
     }
 
     &__lnk {
-        color: $black;
-        text-decoration: none;
+        position: relative;
+
+        @include link-visited( true ) {
+            color: $black;
+        }
+
+        @include on-event {
+            text-decoration: none;
+            &:after {
+                cursor: pointer;
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: .1em;
+                right: 0;
+                height: 1px;
+                background-color: rgba( $bouvet-orange, .5 );
+            }
+        }
     }
 
+}
+
+ul.teamMembers {
+    margin-bottom: 60px;
+}
+
+.teamMember {
+    padding: 0 0 20px;
+
+    &__imgWrapper {
+        position: relative;
+        z-index: 1;
+        font: {
+            family: $rockwell;
+            size: rem( 22px, true );
+            weight: 300;
+        }
+        font-size: 7vw;
+        line-height: 1;
+        text-align: center;
+        color: $white;
+
+        @media (min-width: 512px) {
+            font-size: rem( 18px, true );
+            font-size: 3.5vw;
+        }
+
+        @media (min-width: 768px) {
+            font-size: rem( 12px, true );
+            font-size: 1.75vw;
+        }
+
+        @media (min-width: 1338px) {
+            font-size: rem( 24px, true );
+        }
+    }
+
+    &__img {
+
+    }
+
+    &__pos {
+        position: absolute;
+        right: 0;
+        bottom: 1em;
+        left: 0;
+
+    }
+
+    &__heading {
+        font: {
+            family: $avenir;
+            size: rem( 22px, true );
+        }
+        margin: 1em 0 .5em;
+
+        a {
+            position: relative;
+            color: $black;
+            text-decoration: none;
+
+            @include on-event {
+                &:after {
+                    cursor: pointer;
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: .1em;
+                    right: 0;
+                    height: 1px;
+                    background-color: rgba( $bouvet-orange, .5 );
+                }
+            }
+        }
+    }
+
+    &__title {
+        font: {
+            family: $avenir;
+            size: rem( 15px, true );
+            weight: 300;
+        }
+        margin: 0 0 .25em;
+    }
+
+    &__about {
+
+    }
 }

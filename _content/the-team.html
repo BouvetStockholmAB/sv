@@ -1,0 +1,18 @@
+{% for member in site.data.the-team.team %}
+<li class="col teamMember">
+
+    <div class="teamMember__imgWrapper">
+        <img src="assets/img/team-1x-300x395/{{ member.img }}.jpg"
+             srcset="assets/img/team-2x-600x790/{{ member.img }}.jpg"
+             sizes=""
+             class="teamMember__img"
+             alt="">
+        <div class="teamMember__pos" aria-hidden="true">{{ member.position }}</div>
+    </div>
+
+    <h3 class="teamMember__heading"><a href="mailto:{{ member.email }}">{{ member.name }}</a></h3>
+    <h4 class="teamMember__title">{{ member.title }}</h4>
+    <p class="teamMember__about">{{ member.about }}</p>
+
+</li>
+{% endfor %}

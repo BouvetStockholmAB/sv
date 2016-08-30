@@ -1,0 +1,36 @@
+{
+    "team": [
+        {
+            "name": "Aggi Ahlnäs",
+            "title": "Teamledare",
+            "about": "Text om specialitet",
+            "email": "aggi.ahlnas@bouvet.se",
+            "img": "aggi",
+            "position": "54°23'39\"S 03°23'12\"E"
+        },
+        {
+            "name": "Ellinor Hallet",
+            "title": "Webbutvecklare",
+            "about": "Text om specialitet",
+            "email": "ellinor.hallet@bouvet.se",
+            "img": "ellinor",
+            "position": "54°23'39\"S 03°23'12\"E"
+        },
+        {
+            "name": "Henrik Ekelöf",
+            "title": "Webbutvecklare",
+            "about": "Text om specialitet",
+            "email": "henrik.ekelof@bouvet.se",
+            "img": "henrik",
+            "position": "54°23'39\"S 03°23'12\"E"
+        },
+        {
+            "name": "Joakim Wåhlander",
+            "title": "Webbutvecklare",
+            "about": "Text om specialitet",
+            "email": "joakim.wahlander@bouvet.se",
+            "img": "joakim",
+            "position": "54°23'39\"S 03°23'12\"E"
+        }
+    ]
+}

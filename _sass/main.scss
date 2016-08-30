@@ -27,6 +27,7 @@ $assets: "/sv/assets/img/" !default;
 
 // 5. Components
 @import 'components/button',
+        'components/logo',
         'components/hero',
         'components/feature-article',
         'components/content-blocks';

@@ -7,12 +7,19 @@
     justify-content: space-between;
     margin: 0 -16px;
 
+    @at-root ul.ct {
+        margin: 0 -16px;
+    }
+
     .col {
         margin: 0 16px 26px;
     }
 }
 
 .ct {
+    @at-root ul.ct {
+        @include listReset;
+    }
     margin: 0 auto;
 
     .col {
@@ -73,6 +80,25 @@
                 flex-grow: 1;
                 flex-shrink: 1;
             }
+        }
+    }
+
+    &--4col {
+
+        @include media-x-small-and-up {
+            @include columns;
+            flex-wrap: wrap;
+
+            .col {
+                flex-basis: 224px;
+                flex-grow: 1;
+                flex-shrink: 1;
+            }
+
+        }
+
+        @include media-medium-and-up {
+            flex-wrap: nowrap;
         }
     }
 }

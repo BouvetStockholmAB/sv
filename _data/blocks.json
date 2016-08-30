@@ -1,146 +1,116 @@
 {
     "samspel": {
-        "img1x": "assets/img/samspel-414x430.jpg",
-        "img2x": "assets/img/samspel-828x860.jpg",
         "heading": "Samspel",
         "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
         "article": {
-            "imgBg": "assets/img/nrm-2616x1628.jpg",
             "heading": "Samspel",
             "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
             "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
             "links": [
                 { "href": "http://samspel.hh.se", "text": "samspel.hh.se" },
-                { "href": "http://samspel.hh.se", "text": "Läs mer PDF" }
+                { "href": "#", "text": "Läs mer PDF" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros",
-            "screen": "assets/img/nrm-screen-1182x980.png"
-        }
+            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+        },
+        "screen": true
     },
     "jonkoping": {
-        "img1x": "assets/img/jonkoping-414x430.jpg",
-        "img2x": "assets/img/jonkoping-828x860.jpg",
         "heading": "Jönköping",
         "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
         "article": {
-            "imgBg": "assets/img/nrm-2616x1628.jpg",
             "heading": "Jönköping",
             "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
             "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
             "links": [
-                { "href": "http://samspel.hh.se", "text": "samspel.hh.se" },
-                { "href": "http://samspel.hh.se", "text": "Läs mer PDF" }
+                { "href": "#", "text": "Länk?" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros",
-            "screen": "assets/img/nrm-screen-1182x980.png"
-        }
+            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+        },
+        "screen": true
     },
     "nrm": {
-        "img1x": "assets/img/nrm-414x430.jpg",
-        "img2x": "assets/img/nrm-828x860.jpg",
         "heading": "Naturhistoriska muséet",
         "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
         "article": {
-            "imgBg": "assets/img/nrm-2616x1628.jpg",
             "heading": "Naturhistoriska muséet",
             "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
             "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
             "links": [
-                { "href": "http://samspel.hh.se", "text": "samspel.hh.se" },
-                { "href": "http://samspel.hh.se", "text": "Läs mer PDF" }
+                { "href": "http://utstallning.nrm.se", "text": "utstallning.nrm.se" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros",
-            "screen": "assets/img/nrm-screen-1182x980.png"
-        }
+            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+        },
+        "screen": true
     },
     "jarfalla": {
-        "img1x": "assets/img/nrm-414x430.jpg",
-        "img2x": "assets/img/nrm-828x860.jpg",
-        "heading": "Naturhistoriska muséet",
+        "heading": "Järfälla",
         "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
         "article": {
-            "imgBg": "assets/img/nrm-2616x1628.jpg",
-            "heading": "Naturhistoriska muséet",
+            "heading": "Järfälla",
             "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
             "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
             "links": [
-                { "href": "http://samspel.hh.se", "text": "samspel.hh.se" },
-                { "href": "http://samspel.hh.se", "text": "Läs mer PDF" }
+                { "href": "#", "text": "Länk?" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros",
-            "screen": "assets/img/nrm-screen-1182x980.png"
-        }
+            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+        },
+        "screen": true
     },
     "ale": {
-        "img1x": "assets/img/nrm-414x430.jpg",
-        "img2x": "assets/img/nrm-828x860.jpg",
-        "heading": "Naturhistoriska muséet",
+        "heading": "Ale kommun",
         "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
         "article": {
-            "imgBg": "assets/img/nrm-2616x1628.jpg",
-            "heading": "Naturhistoriska muséet",
+            "heading": "Ale kommun",
             "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
             "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
             "links": [
-                { "href": "http://samspel.hh.se", "text": "samspel.hh.se" },
-                { "href": "http://samspel.hh.se", "text": "Läs mer PDF" }
+                { "href": "http://ale.se", "text": "ale.se" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros",
-            "screen": "assets/img/nrm-screen-1182x980.png"
-        }
+            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+        },
+        "screen": true
     },
     "hassleholm": {
-        "img1x": "assets/img/nrm-414x430.jpg",
-        "img2x": "assets/img/nrm-828x860.jpg",
-        "heading": "Naturhistoriska muséet",
+        "heading": "Hässleholm",
         "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
         "article": {
-            "imgBg": "assets/img/nrm-2616x1628.jpg",
-            "heading": "Naturhistoriska muséet",
+            "heading": "Hässleholm",
             "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
             "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
             "links": [
-                { "href": "http://samspel.hh.se", "text": "samspel.hh.se" },
-                { "href": "http://samspel.hh.se", "text": "Läs mer PDF" }
+                { "href": "http://www.hassleholm.se", "text": "hassleholm.se" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros",
-            "screen": "assets/img/nrm-screen-1182x980.png"
-        }
+            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+        },
+        "screen": true
     },
     "upplandsvasby": {
-        "img1x": "assets/img/nrm-414x430.jpg",
-        "img2x": "assets/img/nrm-828x860.jpg",
-        "heading": "Naturhistoriska muséet",
+        "heading": "Upplands Väsby",
         "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
         "article": {
-            "imgBg": "assets/img/nrm-2616x1628.jpg",
-            "heading": "Naturhistoriska muséet",
+            "heading": "Upplands Väsby",
             "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
             "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
             "links": [
-                { "href": "http://samspel.hh.se", "text": "samspel.hh.se" },
-                { "href": "http://samspel.hh.se", "text": "Läs mer PDF" }
+                { "href": "http://www.upplandsvasby.se", "text": "upplandsvasby.se" },
+                { "href": "#", "text": "Läs mer PDF" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros",
-            "screen": "assets/img/nrm-screen-1182x980.png"
-        }
+            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+        },
+        "screen": true
     },
     "nerikes": {
-        "img1x": "assets/img/nrm-414x430.jpg",
-        "img2x": "assets/img/nrm-828x860.jpg",
-        "heading": "Naturhistoriska muséet",
+        "heading": "Nerikes brandkår",
         "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
         "article": {
-            "imgBg": "assets/img/nrm-2616x1628.jpg",
-            "heading": "Naturhistoriska muséet",
+            "heading": "Nerikes brandkår",
             "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
             "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
             "links": [
-                { "href": "http://samspel.hh.se", "text": "samspel.hh.se" },
-                { "href": "http://samspel.hh.se", "text": "Läs mer PDF" }
+                { "href": "http://nerikesbrandkar.se", "text": "nerikesbrandkar.se" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros",
-            "screen": "assets/img/nrm-screen-1182x980.png"
-        }
+            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+        },
+        "screen": true
     }
 }

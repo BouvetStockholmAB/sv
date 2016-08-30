@@ -37,6 +37,12 @@ body {
     &.preventScroll {
         overflow: hidden;
     }
+
+    &.fixed {
+        @include media-small-and-up {
+            padding-top: 56px; // Space for absolute positioned main menu
+        }
+    }
 }
 
 img {
@@ -48,6 +54,17 @@ img {
 
 p {
     margin: 0 0 .5em;
+}
+
+a {
+    @include link-visited {
+        color: $bouvet-orange;
+        text-decoration: none;
+    }
+    @include on-event {
+        text-decoration: underline;
+    }
+
 }
 
 blockquote {

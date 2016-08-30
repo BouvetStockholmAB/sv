@@ -16,14 +16,18 @@ button,
         size: rem( 15px, true );
     }
     line-height: 1;
-    color: $black;
     border: 1px solid $black;
     text-decoration: none;
     padding: 17px 50px;
     margin: 0;
 
-    &:hover, &:focus {
+    @include link-visited( true ) {
+        color: $black;
+    }
+
+    @include on-event {
         color: $bouvet-orange;
+        text-decoration: none;
         border-color: $bouvet-orange;
     }
 

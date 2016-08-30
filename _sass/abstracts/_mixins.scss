@@ -2,6 +2,21 @@
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
 
+@mixin link-visited($self: false) {
+    @if $self {
+        &,
+        &:link,
+        &:visited {
+            @content;
+        }
+    } @else {
+        &:link,
+        &:visited {
+            @content;
+        }
+    }
+}
+
 /// Event wrapper
 /// @author Harry Roberts
 /// @param {Bool} $self [false] - Whether or not to include current selector

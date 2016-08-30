@@ -1,11 +1,8 @@
 
 %listLinks {
     a {
-        &, &:link {
+        @include link-visited( true ) {
             text-decoration: none;
-        }
-        &:visited {
-
         }
         @include on-event {
             text-decoration: underline;
@@ -16,11 +13,8 @@
 %contentLinks {
     // Content links
     a {
-        &, &:link {
+        @include link-visited( true ) {
             text-decoration: none;
-        }
-        &:visited {
-
         }
         @include on-event {
             text-decoration: underline;

@@ -11,6 +11,11 @@
     height: 44px;
     padding: 0;
     margin: -22px 0 0;
+    outline: none;
+
+    @include on-event {
+        background-color: transparent;
+    }
 }
 
 .hamburger {
@@ -40,6 +45,10 @@
             background-color: $dark-grey;
             border-radius: 0;//2px;
             transition: transform .3s ease, background-color .3s ease;
+
+            .fixed & {
+                background-color: $white;
+            }
         }
 
         &:before,
@@ -142,8 +151,6 @@
         position: relative;
         z-index: 2;
         display: inline-block;
-        color: $white;
-        text-decoration: none;
         font-size: 1.5rem;
         line-height: 1;
         letter-spacing: .1em;
@@ -152,7 +159,13 @@
         overflow: hidden;
         text-overflow: ellipsis;
 
+        @include link-visited {
+            color: $white;
+            text-decoration: none;
+        }
+
         @include on-event {
+            text-decoration: none;
 
             &:after {
                 content: "";

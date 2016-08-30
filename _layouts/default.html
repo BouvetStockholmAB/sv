@@ -29,30 +29,31 @@
 <body id="top">
 
 <div class="ct ct--contentwrap">
-
-
-    <div class="ct ct--std ct--rel" role="banner">
-
-        {% include header.html %}
-
+    <div role="banner">
+        <div class="ct ct--std ct--rel">
+            {% include header.html %}
+        </div>
     </div><!-- role=banner -->
-
-
-    <div class="ct ct--std" role="main">
-
-        {{ content }}
-
-    </div><!-- role=main -->
-
 </div>
 
+
+{{ content }}
+
+
 <div role="contentinfo"
+     id="contact"
      style="background-image: url( 'assets/img/css/bouvetoya.png' );">
 
     <div class="ct ct--std ct--rel">
 
         {% include footer.html %}
 
+    </div>
+
+    <div class="meta">
+        Last build: {{ site.time | date: "%Y-%m-%d %H:%M" }}
+        <br>
+        Source at GitHub: <a href="{{ site.github.repository_url }}">{{ site.github.project_title }}</a>
     </div>
 
 </div><!-- role=contentinfo -->

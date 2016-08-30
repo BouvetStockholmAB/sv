@@ -6,6 +6,14 @@
 
     var $expArticles = $( '.js-expanding-article' );
 
+    function setSrcSet( $img ) {
+        if ( $img.data( 'hasSrcSet' ) ) {
+            return;
+        }
+        $img.attr( 'srcset', $img.data( 'srcset' ) );
+        $img.data( 'hasSrcSet', true );
+    }
+
     $expArticles.on( 'click', function ( e ) {
 
         e.preventDefault();
@@ -31,6 +39,8 @@
             .hide()
             .html( $article )
             .showVertical();
+
+        setSrcSet( $articleContainer.find( '.featureArticle__screen' ) );
 
         $.smoothScroll( {
             scrollTarget: '#' + articleCtId
