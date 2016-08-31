@@ -94,6 +94,10 @@
         margin: 0 0 1em;
         line-height: 1;
         font-size: rem( 50px, true );
+
+        @include media-up-to-small {
+            font-size: rem( 30px, true );
+        }
     }
 
     &__preamble {
