@@ -10,6 +10,10 @@
     height: 228px;
     padding: 0 50px;
 
+    @include media-up-to-small {
+        padding: 0 30px;
+    }
+
     @media ( min-width: 768px ) {
         height: 620px;
     }
@@ -82,7 +86,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
 
     &__content {
@@ -91,7 +95,6 @@
         @include media-small-and-up {
             margin: -50px 25px 50px;
         }
-
 
         @include media-large-and-up {
             margin: -200px 50px 80px;
@@ -107,7 +110,6 @@
     &__quote {
         display: flex;
 
-
         @include media-large-and-up {
             margin: 50px 0;
         }
@@ -122,8 +124,6 @@
     }
 
     &__quote {
-
-
         background-color: $black;
 
         &__wrap {
@@ -191,6 +191,10 @@
             weight: 700;
         }
         color: $black;
+
+        @include media-up-to-small {
+            font-size: rem( 40px, true );
+        }
     }
 
     &__tagline {
@@ -200,5 +204,9 @@
             weight: 400;
         }
         color: $black;
+
+        @include media-up-to-small {
+            font-size: rem( 18px, true );
+        }
     }
 }

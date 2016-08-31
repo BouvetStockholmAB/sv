@@ -35,6 +35,10 @@ th {
 
     &--large {
         font-size: rem( 50px, true );
+
+        @include media-up-to-small {
+            font-size: rem( 30px, true );
+        }
     }
 }
 
