@@ -62,13 +62,6 @@
 
     function restoreToTop() {
         headState = 'origin';
-//        $scrollnav.css( {
-//            top: 0
-//        });
-//        $body.removeClass( 'fixed' );
-//        scrollnav.removeAttribute( 'style' );
-//        $scrollnav.removeClass( 'fixed hiddenLogo' );
-
         $scrollnav.animate( {
             top            : '-56px',
             backgroundColor: '#fff'

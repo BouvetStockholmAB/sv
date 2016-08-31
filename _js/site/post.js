@@ -61,7 +61,10 @@
 
         $( '#menu' )
             .find( 'a[href*="#"]:not([href="#"])' )
-            .smoothScroll( { preventDefault: false } );
+            .smoothScroll( {
+                offset: -56,
+                preventDefault: false
+            } );
 
     } );
 
