@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "text": "Om Bouvet",
+            "href": "#hero"
+        },
+        {
+            "text": "Referensprojekt",
+            "href": "#references"
+        },
+        {
+            "text": "SiteVision-kunder",
+            "href": "#more-customers"
+        },
+        {
+            "text": "Teamet",
+            "href": "#the-team"
+        },
+        {
+            "text": "Kontakta oss",
+            "href": "#contact"
+        }
+    ]
+}

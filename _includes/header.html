@@ -26,22 +26,11 @@
          class="menu">
 
         <ul class="menu__items">
-
-            <li class="menu__item">
-                <a href="#hero" class="menu__itemLnk">Om Bouvet</a>
-            </li>
-            <li class="menu__item">
-                <a href="#feature-1" class="menu__itemLnk">Referensprojekt</a>
-            </li>
-            <li class="menu__item">
-                <a href="#more-customers" class="menu__itemLnk">SiteVision-kunder</a>
-            </li>
-            <li class="menu__item">
-                <a href="#the-team" class="menu__itemLnk">Teamet</a>
-            </li>
-            <li class="menu__item">
-                <a href="#contact" class="menu__itemLnk">Kontakta oss</a>
-            </li>
+            {% for item in site.data.main-nav.items %}
+                <li class="menu__item">
+                    <a href="{{ item.href }}" class="menu__itemLnk">{{ item.text }}</a>
+                </li>
+            {% endfor %}
         </ul>
 
     </div>

@@ -15,7 +15,7 @@
     {% assign stylesheet = "dev.css" %}
     {% endif %}
     <!-- Environment: {{ jekyll.environment }} -->
-    <link rel="stylesheet" href="{{ host }}{{ assets }}/{{ stylesheet }}">
+    <link rel="stylesheet" href="{{ host }}{{ assets }}/{{ stylesheet }}?v={{ site.time | date: "%y%m%d%H%M" }}">
     <link rel="apple-touch-icon" href="{{ host }}/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="{{ host }}/favicon.png">
 
@@ -23,7 +23,7 @@
         var _b = _b || {}, BV = BV || {}; _b.init = [];
         document.documentElement.className = ' js ';
     </script>
-    <script src="{{ host }}{{ assets }}/main.js" async></script>
+    <script src="{{ host }}{{ assets }}/main.js?v={{ site.time | date: "%y%m%d%H%M" }}" async></script>
 
 </head>
 <body id="top">
@@ -41,8 +41,7 @@
 
 
 <div role="contentinfo"
-     id="contact"
-     style="background-image: url( 'assets/img/css/bouvetoya.png' );">
+     id="contact">
 
     <div class="ct ct--std ct--rel">
 

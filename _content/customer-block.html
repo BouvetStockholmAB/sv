@@ -1,4 +1,4 @@
-<div class="block block--small block--img js-expanding-article">
+<div class="block block--small block--img js-expanding-article" id="featured-{{ include.param }}">
 
     <div class="blockBg blockBg--1x"
          style="background-image: url( 'assets/img/block-bg-1x-414x430/{{ include.param }}.jpg' );"></div>
@@ -14,8 +14,12 @@
 
 
 
-        <div class="featureArticle"
-             style="background-image: url('assets/img/article-bg-1x-1308x814/{{ include.param }}.jpg')">
+        <div class="featureArticle">
+
+            <div class="featureArticle__bg featureArticle__bg--1x"
+                 style="background-image: url('assets/img/article-bg-1x-1308x814/{{ include.param }}.jpg')"></div>
+            <div class="featureArticle__bg featureArticle__bg--2x"
+                 style="background-image: url('assets/img/article-bg-2x-2616x1628/{{ include.param }}.jpg')"></div>
 
             <div class="featureArticle__preamble">
                 <h2 class="featureArticle__heading">{{ site.data.blocks[include.param].article.heading }}</h2>
@@ -51,8 +55,8 @@
 
                 {% if site.data.blocks[include.param].screen %}
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                     data-srcset="assets/img/screen-1x-591x490/{{ include.param }}.png"
-                     sizes=""
+                     data-srcset="assets/img/screen-1x-591x490/{{ include.param }}.png 591w, assets/img/screen-2x-1182x980/{{ include.param }}.png 1182w"
+                     sizes="(max-width: 459px) 100vw, (max-width: 1338px) 48vw, 591px"
                      class="featureArticle__screen"
                      alt="">
                 {% endif %}

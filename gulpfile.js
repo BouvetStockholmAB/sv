@@ -21,6 +21,7 @@
         lodashBuilder = require( 'gulp-lodash-builder' ),
         jshint        = require( 'gulp-jshint' ),
         jscs          = require( 'gulp-jscs' ),
+        uglify        = require( 'gulp-uglify' ),
         autoprefixer  = require( 'gulp-autoprefixer' );
 
     //----- Helpers -----//
@@ -137,7 +138,7 @@
     function buildCss( inputStream ) {
         return inputStream
             .pipe( sass( {
-                outputStyle: 'nested'
+                outputStyle: options.dev ? 'nested' : 'compressed'
             } ).on( 'error', sass.logError ) )
             .pipe( inlineBase64( {
                 baseDir: dir.images,
@@ -151,12 +152,14 @@
     }
 
     gulp.task( 'css-build-dev', function () {
+        options.dev = true;
         return buildCss( gulp.src( path.join( dir.sass, files.devsass ) ) )
             .pipe( gulp.dest( dir.dev ) )
             .pipe( gulpif( options.live, connect.reload() ) );
     } );
 
     gulp.task( 'css-build-dist', function () {
+        options.dev = false;
         return buildCss( gulp.src( path.join( dir.sass, files.sass ) ) )
             .pipe( gulp.dest( dir.dev ) );
     } );
@@ -257,9 +260,21 @@
     } );
 
     gulp.task( 'js-build-dist', [ 'jshint', 'jscs', 'alljs-concat' ], function () {
+
+//        gulp.task('compress', function () {
+//            return gulp.src('lib/*.js')
+//                       .pipe(uglify())
+//                       .pipe(gulp.dest('dist'))
+//                       .on('error', function(err) {
+//                           console.error('Error in compress task', err.toString());
+//                       });
+//        });
+
+
         return gulp.src( [
             _devDir( files.js )
         ] )
+                   .pipe( uglify() )
                    .pipe( gulp.dest( dir.dev ) );
 
     } );

@@ -38,15 +38,11 @@ Code style and hinting is done on build (JSCS & JSHint).
   This is the pages of the generated site. 
 
 
-### Build for distribution
+### Build and deploy
 
 `$ gulp build`
 
-- Builds minified files for production to ./dist directory.
-- Commit and push to GitHub or upload to SiteVision file storage
-  depending on where your metadata is pointing.
+- Builds minified JS- and CSS files for production to ./assets directory.
 
-`$ gulp build --rev` 
+Deploy by committing and pushing to GitHub Pages.
 
-- Builds minified files for production to ./dist directory with timestamp
-  in file name.

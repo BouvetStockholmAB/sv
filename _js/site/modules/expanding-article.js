@@ -1,6 +1,6 @@
 /*global jQuery */
 
-( function ( doc, $ ) {
+( function ( win, doc, $ ) {
 
     'use strict';
 
@@ -21,10 +21,12 @@
         var $this      = $( this ),
             $container = $this.closest( '.ct' ),
             $article   = $this.find( '.js-article' ).clone().removeClass( 'visuallyhidden' ),
-            id, $articleContainer, articleCtId;
+            id, $articleContainer, articleCtId, href,
+            articleItemId = $this.attr( 'id' ).replace( 'featured', '' );
 
         id          = $container.attr( 'id' );
-        articleCtId = id + '-article';
+        articleCtId = id + '-article',
+        href = '#' + articleCtId;
 
         $articleContainer = $( doc.getElementById( articleCtId ) );
 
@@ -43,30 +45,48 @@
         setSrcSet( $articleContainer.find( '.featureArticle__screen' ) );
 
         $.smoothScroll( {
-            scrollTarget: '#' + articleCtId
+            scrollTarget: href
         } );
+
+        win.history.replaceState( '', '', href + articleItemId );
 
     } );
 
     $( '.ct' ).on( 'click', '.featureArticle__close__btn', function ( e ) {
         e.preventDefault();
         var $articleContainer = $( this ).closest( '.ct' ),
-            $container, id, articleCtId;
+            $container, id, articleCtId, href;
 
         articleCtId = $articleContainer.attr( 'id' );
         id = articleCtId.replace( '-article', '' );
+        href = '#' + id;
 
-        $container = $( '#' + id );
+        $container = $( href );
 
         $articleContainer.hideVertical();
 
         $container.find( '.active' ).removeClass( 'active' );
 
         $.smoothScroll( {
-            scrollTarget: '#' + id
+            scrollTarget: href
         } );
+
+        win.history.replaceState( '', '', href );
 
     } );
 
+    function openOnLoad() {
+        var hash = win.location.hash,
+            $article;
+        if ( hash && hash.startsWith( '#feature-' ) ) {
+            $article = $( '#featured-' + hash.substr( 19 ) );
+            if ( $article.exists() ) {
+                $article.click();
+            }
+        }
+    }
 
-}( document, jQuery ) );
+    $( openOnLoad );
+
+
+}( window, document, jQuery ) );

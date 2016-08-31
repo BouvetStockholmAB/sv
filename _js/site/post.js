@@ -44,8 +44,8 @@
 
     $( function () {
         _b.attachFastClick( [
-            d.querySelector( '.hamburger' )
-            //, $( '.searchBox__submit' )
+            d.querySelector( '.hamburger' ),
+            $( '#menu a' )
         ] );
     } );
 

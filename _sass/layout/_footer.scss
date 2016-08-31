@@ -8,12 +8,17 @@
     font-size: rem( 22px, true );
     min-height: 370px;
     background: {
+        image: uri("bouvetoya-1x.png");
         color: $black;
         position: 100% 100%;
         repeat: no-repeat;
         size: 370px auto; // 740 x 736
     }
     padding: 80px 16px;
+
+    @media ( min-resolution: 192dpi ) {
+        image: uri("bouvetoya-2x.png");
+    }
 
     a {
         position: relative;

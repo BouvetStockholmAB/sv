@@ -29,6 +29,6 @@
 
 //
 @function uri( $file ) {
-    @return unquote("url('" + $assets + $file + "')");
+    @return unquote("url('" + $assets + "css/" + $file + "')");
 }
 

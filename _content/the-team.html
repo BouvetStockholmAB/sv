@@ -3,8 +3,8 @@
 
     <div class="teamMember__imgWrapper">
         <img src="assets/img/team-1x-300x395/{{ member.img }}.jpg"
-             srcset="assets/img/team-2x-600x790/{{ member.img }}.jpg"
-             sizes=""
+             srcset="assets/img/team-1x-300x395/{{ member.img }}.jpg 300w, assets/img/team-2x-600x790/{{ member.img }}.jpg 600w"
+             sizes="(max-width: 511px) 100vw, (max-width: 767px) 50vw, (max-width: 1338px) 25vw, 302px"
              class="teamMember__img"
              alt="">
         <div class="teamMember__pos" aria-hidden="true">{{ member.position }}</div>

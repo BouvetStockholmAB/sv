@@ -10,9 +10,9 @@ title: Bouvet Team SiteVision
             {% include_relative _content/hero.html %}
         </div>
         
-        <div class="ct ct--std">
+        <div class="ct ct--std" id="references">
             <div class="block block--largeTxtBlock">
-                <h2 class="heading heading--large">Lorem</h2>
+                <h2 class="heading heading--large">Kundreferenser</h2>
                 <p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>
             </div>
         </div>

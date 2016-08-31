@@ -1,6 +1,6 @@
 /*global jQuery, _b */
 
-( function ( $ ) {
+( function ( win, $ ) {
 
     'use strict';
 
@@ -28,12 +28,13 @@
         setTimeout( toggleMenu, 500 );
     }
 
-
-//    $menu.find( '.menu__items' ).on( 'click', function ( e ) {
-//        e.stopPropagation();
-//    } );
-
-    $menu.on( 'click', function () {
+    $menu.on( 'click', function ( e ) {
+        e.preventDefault();
+        var $this = $( e.target ),
+            href = $this.attr( 'href' );
+        if ( href && href.startsWith( '#' ) ) {
+            win.history.replaceState( '', '', href );
+        }
         hideMenu();
     } );
 
@@ -50,4 +51,4 @@
 
     }, 510 ) );
 
-}( jQuery ) );
+}( window, jQuery ) );
