@@ -258,6 +258,14 @@ ul.teamMembers {
         bottom: 1em;
         left: 0;
 
+        @include link-visited( true ) {
+            color: $white;
+            text-decoration: none;
+        }
+        @include on-event {
+            color: $white;
+            text-decoration: none;
+        }
     }
 
     &__heading {

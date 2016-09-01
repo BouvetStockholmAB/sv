@@ -8,7 +8,11 @@
              sizes="(max-width: 511px) 100vw, (max-width: 767px) 50vw, (max-width: 1338px) 25vw, 302px"
              class="teamMember__img"
              alt="">
-        <div class="teamMember__pos" aria-hidden="true">{{ member.position }}</div>
+        <a href="https://www.google.se/maps/place/{{ member.position | cgi_escape }}"
+           class="teamMember__pos"
+           aria-hidden="true">
+            {{ member.position }}
+        </a>
     </div>
 
     <h3 class="teamMember__heading"><a href="mailto:{{ member.email }}">{{ member.name }}</a></h3>
