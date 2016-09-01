@@ -8,7 +8,7 @@
             "html": "<p>HTML.</p>",
             "links": [
                 { "href": "http://samspel.hh.se", "text": "LINKS" },
-                { "href": "#", "text": "Läs mer PDF" }
+                { "href": "#", "text": "LINKS" }
             ],
             "quote": "QUOTE"
         },
