@@ -7,7 +7,7 @@
             "email": "aggi.ahlnas@bouvet.se",
             "tel": "+46 709 123 456",
             "img": "aggi",
-            "position": "54°23'39\"S 03°23'12\"E"
+            "position": "54°24'35\"S 3°25'24\"E"
         },
         "ellinor": {
             "name": "Ellinor Hallet",
@@ -15,7 +15,7 @@
             "about": "Text om specialitet",
             "email": "ellinor.hallet@bouvet.se",
             "img": "ellinor",
-            "position": "54°23'39\"S 03°23'12\"E"
+            "position": "54°23'40\"S, 3°21'31\"E"
         },
         "henrik": {
             "name": "Henrik Ekelöf",
@@ -23,7 +23,7 @@
             "about": "Text om specialitet",
             "email": "henrik.ekelof@bouvet.se",
             "img": "henrik",
-            "position": "54°23'39\"S 03°23'12\"E"
+            "position": "54°23'39\"S 3°23'12\"E"
         },
         "joakim": {
             "name": "Joakim Wåhlander",
@@ -31,7 +31,7 @@
             "about": "Text om specialitet",
             "email": "joakim.wahlander@bouvet.se",
             "img": "joakim",
-            "position": "54°23'39\"S 03°23'12\"E"
+            "position": "54°26'39\"S 3°24'18\"E"
         }
     }
 }
