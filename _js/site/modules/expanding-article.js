@@ -10,7 +10,12 @@
         if ( $img.data( 'hasSrcSet' ) ) {
             return;
         }
-        $img.attr( 'srcset', $img.data( 'srcset' ) );
+        $img.attr( {
+            'srcset': $img.data( 'srcset' ),
+            'sizes' : $img.data( 'sizes' )
+        } )
+            .removeAttr( 'data-srcset' )
+            .removeAttr( 'data-sizes' );
         $img.data( 'hasSrcSet', true );
     }
 
@@ -18,15 +23,15 @@
 
         e.preventDefault();
 
-        var $this      = $( this ),
-            $container = $this.closest( '.ct' ),
-            $article   = $this.find( '.js-article' ).clone().removeClass( 'visuallyhidden' ),
+        var $this         = $( this ),
+            $container    = $this.closest( '.ct' ),
+            $article      = $this.find( '.js-article' ).clone().removeClass( 'js-visuallyhidden' ),
             id, $articleContainer, articleCtId, href,
             articleItemId = $this.attr( 'id' ).replace( 'featured', '' );
 
-        id          = $container.attr( 'id' );
+        id = $container.attr( 'id' );
         articleCtId = id + '-article',
-        href = '#' + articleCtId;
+            href = '#' + articleCtId;
 
         $articleContainer = $( doc.getElementById( articleCtId ) );
 
@@ -58,8 +63,8 @@
             $container, id, articleCtId, href;
 
         articleCtId = $articleContainer.attr( 'id' );
-        id = articleCtId.replace( '-article', '' );
-        href = '#' + id;
+        id          = articleCtId.replace( '-article', '' );
+        href        = '#' + id;
 
         $container = $( href );
 

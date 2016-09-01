@@ -37,6 +37,7 @@
  * Shamelessly borrowed from HTML5Boilerplate:
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
+.js .js-visuallyhidden,
 .visuallyhidden {
     position: absolute;
     overflow: hidden;
@@ -46,4 +47,8 @@
     margin: -1px;
     padding: 0;
     border: 0;
+}
+
+.no-js .no-js-hidden {
+    display: none;
 }

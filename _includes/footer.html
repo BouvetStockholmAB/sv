@@ -1,11 +1,11 @@
-
+{% assign aggi = site.data.the-team.team["aggi"] %}
 <h2 class="logo logo--white">bouvet</h2>
-
 <div class="vcard">
-    <div class="fn">Aggi Ahlnäs</div>
-    <!--<div class="category">physicist</div>-->
-    <div><a class="tel" href="tel:+46 709 123 456">+46 709 123 456</a></div>
-    <div><a class="email" href="mailto:aggi.ahlnas@bouvet.se">aggi.ahlnas@bouvet.se</a></div>
+    <div class="fn">{{ aggi.name }}</div>
+    {% comment %}
+    <div class="category">{{ aggi.title }}</div>
+    {% endcomment %}
+    <div><a class="tel" href="tel:{{ aggi.tel | replace: " ", "" | cgi_escape }}">{{ aggi.tel }}</a></div>
+    <div><a class="email" href="mailto:{{ aggi.email }}">{{ aggi.email }}</a></div>
 </div>
-
 

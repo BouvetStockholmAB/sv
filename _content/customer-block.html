@@ -1,16 +1,18 @@
 <div class="block block--small block--img js-expanding-article" id="featured-{{ include.param }}">
 
-    <div class="blockBg blockBg--1x"
-         style="background-image: url( 'assets/img/block-bg-1x-414x430/{{ include.param }}.jpg' );"></div>
-    <div class="blockBg blockBg--2x"
-         style="background-image: url( 'assets/img/block-bg-2x-828x860/{{ include.param }}.jpg' );"></div>
+    <div class="no-js-hidden">
+        <div class="blockBg blockBg--1x"
+             style="background-image: url( 'assets/img/block-bg-1x-414x430/{{ include.param }}.jpg' );"></div>
+        <div class="blockBg blockBg--2x"
+             style="background-image: url( 'assets/img/block-bg-2x-828x860/{{ include.param }}.jpg' );"></div>
+    </div>
 
     <div class="blockBg__txt">
         <h2>{{ site.data.blocks[include.param].heading }}</h2>
         <p>{{ site.data.blocks[include.param].text }}</p>
     </div>
 
-    <div class="js-article visuallyhidden">
+    <div class="js-article js-visuallyhidden">
 
 
 
@@ -56,7 +58,7 @@
                 {% if site.data.blocks[include.param].screen %}
                 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
                      data-srcset="assets/img/screen-1x-591x490/{{ include.param }}.png 591w, assets/img/screen-2x-1182x980/{{ include.param }}.png 1182w"
-                     sizes="(max-width: 459px) 100vw, (max-width: 1338px) 48vw, 591px"
+                     data-sizes="(max-width: 459px) 100vw, (max-width: 1338px) 48vw, 591px"
                      class="featureArticle__screen"
                      alt="">
                 {% endif %}

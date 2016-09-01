@@ -14,6 +14,10 @@
     .col {
         margin: 0 16px 26px;
     }
+
+    .no-js &.no-js-1col {
+        display: block;
+    }
 }
 
 .ct {

@@ -8,16 +8,20 @@
     padding: 100px 26px 26px; //26px;
     margin: 0 0 26px;
 
-    @include media-large-and-up {
-        margin-bottom: 170px;
-    }
+    .js & {
 
-    @include media-x-large-and-up {
-        margin-bottom: 220px;
-    }
+        @include media-large-and-up {
+            margin-bottom: 170px;
+        }
 
-    @include media-full-and-up {
-        margin-bottom: 266px;
+        @include media-x-large-and-up {
+            margin-bottom: 220px;
+        }
+
+        @include media-full-and-up {
+            margin-bottom: 266px;
+        }
+
     }
 
     &__bg {
@@ -52,6 +56,10 @@
         z-index: 3;
         top: 0;
         right: 0;
+
+        .no-js & {
+            display: none;
+        }
 
         &__btn {
             padding: 0;

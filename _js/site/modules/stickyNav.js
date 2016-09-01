@@ -17,7 +17,7 @@
         pageScrollPos = 0,
         config        = {
             fixAt     : 56,
-            breakpoint: '(min-width: 680px)'
+            breakpoint: '(min-height: 480px)'
         },
         mql,
         handleScroll;

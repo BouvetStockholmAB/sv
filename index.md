@@ -18,7 +18,7 @@ title: Bouvet Team SiteVision
         </div>
         
         <div class="ct ct--std">
-            <div class="ct ct--3col" id="feature-1">
+            <div class="ct ct--3col no-js-1col" id="feature-1">
                 <div class="col">
                     {% include_relative _content/customer-block.html param='samspel' %}
                 </div>
@@ -32,7 +32,7 @@ title: Bouvet Team SiteVision
         </div>
         
         <div class="ct ct--std">
-            <div class="ct ct--2col" id="feature-2">
+            <div class="ct ct--2col no-js-1col" id="feature-2">
                 <div class="col">
                     {% include_relative _content/customer-block.html param='jarfalla' %}         
                 </div>
@@ -43,7 +43,7 @@ title: Bouvet Team SiteVision
         </div>
         
         <div class="ct ct--std">
-            <div class="ct ct--3col" id="feature-3">
+            <div class="ct ct--3col no-js-1col" id="feature-3">
                 <div class="col">
                     {% include_relative _content/customer-block.html param='hassleholm' %}
                 </div>

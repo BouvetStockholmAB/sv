@@ -33,6 +33,10 @@
     padding: 0;
     border: none;
 
+    .no-js & {
+        display: none;
+    }
+
     &__icon {
         top: 50%;
         margin-top: -2px;
