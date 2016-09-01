@@ -40,40 +40,28 @@
             }, duration || 300 );
         };
 
+    }
 
-        if ( !$.fn.showVertical ) {
-            /**
-             * Toggle visibilty of an element with a pretty vertical animation.
-             * @example
-             * $( '.foo' ).toggleVertical()
-             * // => Hides or shows an element
-             */
-            $.fn.showVertical = function ( duration ) {
-                return this.animate( {
-                    height       : 'show',
-                    paddingTop   : 'show',
-                    paddingBottom: 'show',
-                    opacity      : 'show'
-                }, duration || 300 );
-            };
-        }
+    if ( !$.fn.showVertical ) {
+        $.fn.showVertical = function ( duration ) {
+            return this.animate( {
+                height       : 'show',
+                paddingTop   : 'show',
+                paddingBottom: 'show',
+                opacity      : 'show'
+            }, duration || 300 );
+        };
+    }
 
-        if ( !$.fn.hideVertical ) {
-            /**
-             * Toggle visibilty of an element with a pretty vertical animation.
-             * @example
-             * $( '.foo' ).toggleVertical()
-             * // => Hides or shows an element
-             */
-            $.fn.hideVertical = function ( duration ) {
-                return this.animate( {
-                    height       : 'hide',
-                    paddingTop   : 'hide',
-                    paddingBottom: 'hide',
-                    opacity      : 'hide'
-                }, duration || 300 );
-            };
-        }
+    if ( !$.fn.hideVertical ) {
+        $.fn.hideVertical = function ( duration ) {
+            return this.animate( {
+                height       : 'hide',
+                paddingTop   : 'hide',
+                paddingBottom: 'hide',
+                opacity      : 'hide'
+            }, duration || 300 );
+        };
     }
 
 }( jQuery ) );
