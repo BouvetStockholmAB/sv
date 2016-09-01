@@ -1,16 +1,16 @@
 {
     "samspel": {
         "heading": "Samspel",
-        "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
+        "text": "Text i puff",
         "article": {
             "heading": "Samspel",
-            "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
-            "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
+            "preamble": "<p>Ingress i artikel</p>",
+            "html": "<p>HTML.</p>",
             "links": [
-                { "href": "http://samspel.hh.se", "text": "samspel.hh.se" },
+                { "href": "http://samspel.hh.se", "text": "LINKS" },
                 { "href": "#", "text": "Läs mer PDF" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+            "quote": "QUOTE"
         },
         "screen": true
     },
