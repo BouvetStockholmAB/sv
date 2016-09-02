@@ -5,10 +5,9 @@
         "article": {
             "heading": "Samspel",
             "preamble": "<p>Magasinet Samspel är ett sätt att på ett enkelt och begripligt sätt sprida kunskap om Högskolans forskning och dess resultat.</p>",
-            "html": " <h1>This is a Heading</h1>"
-            "<p>Målgruppen är främst samverkansparter (både offentliga och privata), forskningsfinansiärer, andra lärosäten samt Högskolan i Halmstads personal (i synnerhet forskare). Några av de viktigaste kraven var att magasinets artiklar skulle vara lätta att läsa och att bilder skulle kunna utnyttjas på ett slagkraftigt sätt. Andra krav var att artiklarna skulle kunna sorteras och presenteras i kategorier som inte speglar lärosätets interna organisation utan snarare vad en extern läsare kan förväntas leta efter. Samt slutligen att publiceringsprocessen inte skulle vara för komplicerad utan lätt att lära sig.</p>",
+            "html": "<p>Målgruppen är främst samverkansparter (både offentliga och privata), forskningsfinansiärer, andra lärosäten samt Högskolan i Halmstads personal (i synnerhet forskare). Några av de viktigaste kraven var att magasinets artiklar skulle vara lätta att läsa och att bilder skulle kunna utnyttjas på ett slagkraftigt sätt. Andra krav var att artiklarna skulle kunna sorteras och presenteras i kategorier som inte speglar lärosätets interna organisation utan snarare vad en extern läsare kan förväntas leta efter. Samt slutligen att publiceringsprocessen inte skulle vara för komplicerad utan lätt att lära sig.</p>",
             "links": [
-                { "href": "http://samspel.hh.se", "text": "Se samspel här" },
+                { "href": "http://samspel.hh.se", "text": "Se Samspel här" },
                 { "href": "#", "text": "Vad skriver vi här" }
             ],
             "quote":"Samarbetet med Bouvet var både enkelt och friktionsfritt. Vi bad uttryckligen byrån idéer och komma med egna inspel och förslag och det gjorde de på ett professionellt sätt. Vi är mycket nöjda med samarbetet."
