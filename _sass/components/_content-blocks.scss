@@ -121,18 +121,23 @@
         bottom: 0;
         left: 16px;
         padding: 10px 10px 50px;
-        transition: all .3s;
+        transition: padding .3s, background-color .5s;
         cursor: pointer;
-        background-position: 100% -100%;
+        background: {
+            color: rgba( $white, 0 );
+            position: right top; //100% -100%;
+            position: right top;
+            repeat: no-repeat;
+            size: 25px auto;
+        }
 
         .block:not(.active):hover & {
             padding-bottom: 100px;
             @extend %triangle-svg;
+            //min-height: 150px;
             background: {
                 color: rgba( $white, .2 );
-                position: right top;
-                repeat: no-repeat;
-                size: 25px auto;
+
             }
         }
 

@@ -16,6 +16,12 @@
         } )
             .removeAttr( 'data-srcset' )
             .removeAttr( 'data-sizes' );
+        setTimeout( function () {
+            $img.attr( {
+                'src': $img.data( 'src' )
+            } )
+                .removeAttr( 'data-src' );
+        }, 1 );
         $img.data( 'hasSrcSet', true );
     }
 
