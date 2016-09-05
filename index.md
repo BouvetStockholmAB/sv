@@ -13,7 +13,7 @@ title: Bouvet Team SiteVision
         <div class="ct ct--std" id="references">
             <div class="block block--largeTxtBlock">
                 <h2 class="heading heading--large">Kundreferenser</h2>
-                <p>Dessa kunder har vi på Bouvet arbetat med:</p>
+                <p>Dessa kunder har vi hjälpt i olika web och intranäts projekt</p>
             </div>
         </div>
         
