@@ -75,8 +75,8 @@ title: Bouvet Team SiteVision
     
     <div class="block block--largeTxtBlock block--quoteBlock">
         <div class="ct ct--contentwrap ct--std">
-            <blockquote>Kontakta oss på: Bouvet AB Storgatan 3 703 61 Örebro</blockquote>
-            <p><a href="#">Lorem ipsum</a></p>
+            <blockquote>Kontakta oss för ett affärsförslag</blockquote>
+            <p><a href="#">Kontakta oss på: Bouvet AB Storgatan 3 703 61 Örebro</a></p>
         </div>
     </div>
     
