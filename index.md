@@ -13,7 +13,7 @@ title: Bouvet Team SiteVision
         <div class="ct ct--std" id="references">
             <div class="block block--largeTxtBlock">
                 <h2 class="heading heading--large">Kundreferenser</h2>
-                <p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>
+                <p>Dessa kunder har vi på Bouvet arbetat med:</p>
             </div>
         </div>
         
@@ -75,17 +75,9 @@ title: Bouvet Team SiteVision
     
     <div class="block block--largeTxtBlock block--quoteBlock">
         <div class="ct ct--contentwrap ct--std">
-            <blockquote>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. 
-            Nulla non magna id lacus semper elementum in ac eros</blockquote>
+            <blockquote>Kontakta oss på: Bouvet AB Storgatan 3 703 61 Örebro</blockquote>
             <p><a href="#">Lorem ipsum</a></p>
         </div>
     </div>
     
 </div><!-- role=main -->
-
-
-
-
-
-
-
