@@ -13,7 +13,7 @@ title: Bouvet Team SiteVision
         <div class="ct ct--std" id="references">
             <div class="block block--largeTxtBlock">
                 <h2 class="heading heading--large">Kundreferenser</h2>
-                <p>Nedan lika kund case</p>
+                <p>Här visar vi några urval av case som har hjälpt våra kunder att få nya intranät eller förbättrade webbar. Dessa kan användas som olika inspirerations källor.</p>
             </div>
         </div>
         
