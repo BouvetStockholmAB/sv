@@ -75,7 +75,7 @@ title: Bouvet Team SiteVision
     
     <div class="block block--largeTxtBlock block--quoteBlock">
         <div class="ct ct--contentwrap ct--std">
-            <blockquote>Vill du veta mer om vad vi kan göra för er? Hör av dig till oss så får vi se vad vi kan göra för er.</blockquote>
+            <blockquote>Vill du veta mer om vad vi kan göra för er? Hör av dig till oss så får vi se vad vi kan göra för just er.</blockquote>
             <p><a href="#">aggi.ahlnas@bouvet.se</a></p>
         </div>
     </div>
