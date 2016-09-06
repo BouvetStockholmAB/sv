@@ -13,7 +13,7 @@ title: Bouvet Team SiteVision
         <div class="ct ct--std" id="references">
             <div class="block block--largeTxtBlock">
                 <h2 class="heading heading--large">Kundreferenser</h2>
-                <p>Olika kund case</p>
+                <p>Nedan lika kund case</p>
             </div>
         </div>
         
@@ -75,7 +75,7 @@ title: Bouvet Team SiteVision
     
     <div class="block block--largeTxtBlock block--quoteBlock">
         <div class="ct ct--contentwrap ct--std">
-            <blockquote>Herregud</blockquote>
+            <blockquote>Vill du veta mer om vad vi kan göra för er? Hör av dig till oss så får vi se vad vi kan göra för er.</blockquote>
             <p><a href="#">aggi.ahlnas@bouvet.se</a></p>
         </div>
     </div>
