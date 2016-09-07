@@ -20,7 +20,7 @@
         "article": {
             "heading": "Jönköping",
             "preamble": "<p>Intranätet ska vara en naturlig startpunkt för samtliga medarbetare i Järfälla kommun. Det ska göra verksamhetssystem och verktyg tillgängliga för alla medarbetare baserat på behov och behörighet. Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
-            "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
+            "html": "<p>Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
             "links": [
                 { "href": "#", "text": "Länk?" }
             ],
@@ -44,15 +44,15 @@
     },
     "jarfalla": {
         "heading": "Järfälla",
-        "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
+        "text": "Socialt intranät",
         "article": {
             "heading": "Järfälla",
-            "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
-            "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
+            "preamble": "<p>Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörigh.</p>",
+            "html": "<p> Målgruppen är för det nya intranätet är alla anställda i kommunen. Viktigaste krav En utav de viktigare är att sidorna skulle ha responsiv web design. Att söket ska fungera och kunna utvecklas utifrån behov. Från 6000 sidor till 250 Social collaboration modulen eller ”Grupper” som vi kallar det i Järfälla kommun. Och profilsidorna där man kan hitta medarbetare mycket smidigt. Innehållsmässigt har antalet sidor gått från ca 6000 sidor till ca 250 sidor.</p",
             "links": [
                 { "href": "#", "text": "Länk?" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+            "quote": "Det har fungerat mycket bra. Det har varit smidigt, tillmötesgående och inget krångel. Utvecklarna som vi har haft tillgång till i vårt projekt har varit helt fantastiska! Professionella, tålmodiga och lösningsfokuserade."
         },
         "screen": true
     },
