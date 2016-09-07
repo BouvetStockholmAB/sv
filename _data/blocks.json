@@ -72,15 +72,15 @@
     },
     "hassleholm": {
         "heading": "Hässleholm",
-        "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
+        "text": "Framtidens webb",
         "article": {
             "heading": "Hässleholm",
-            "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
-            "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
+            "preamble": "<p>Målsättningen med den nya webbplatsen är att göra det möjligt för besökarna att hitta rätt information och utföra sina ärenden på de tider som passar dem. Den nya webben ska även underlätta kontakten med kommunen samt öka möjligheterna till att tycka till och påverka kommunens arbete.</p>",
+            "html": "<p>Webbplatsen är responsiv och fungerar lika bra på desktop som i mobila enheter. Webben är tillgänglighetsanpassad med fokus på att så många som möjligt ska kunna ta del av informationen och tjänsterna på hassleholm.se.</p>",
             "links": [
                 { "href": "http://www.hassleholm.se", "text": "hassleholm.se" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+            "quote": "Finns ingen referens qoute"
         },
         "screen": true
     },
