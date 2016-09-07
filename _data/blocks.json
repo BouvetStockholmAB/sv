@@ -16,10 +16,10 @@
     },
     "jonkoping": {
         "heading": "Jönköping",
-        "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
+        "text": "Socialt intranät",
         "article": {
             "heading": "Jönköping",
-            "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
+            "preamble": "<p>Intranätet ska vara en naturlig startpunkt för samtliga medarbetare i Järfälla kommun. Det ska göra verksamhetssystem och verktyg tillgängliga för alla medarbetare baserat på behov och behörighet. Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
             "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
             "links": [
                 { "href": "#", "text": "Länk?" }
