@@ -20,7 +20,7 @@
         "article": {
             "heading": "Jönköping",
             "preamble": "<p>Jönköpings kommun satte tre mål för intranätet, det ska skapa förutsättningar och vilja till delaktighet samt underlätta samarbete. Det ska öka engagemanget för verksamhetens utveckling och skapa förståelse för helheten. Det viktigaste målet är att det ska vara ett stöd i det vardagliga arbetet.</p>",
-            "html": "<p>Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
+            "html": "<p> Vi har jobbat hårt med att bygga funktionaliteten utifrån användarens perspektiv. Intranätet är så klart responsivt och de verktyg som användaren väljer följer alltid med var hen än befinner sig på intranätet. Dessutom har vi tagit fram en sökfunktion och anpassade vyer där medarbetarens egna förvaltning står i centrum. Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
             "links": [
                 { "href": "#", "text": "Länk?" }
             ],
