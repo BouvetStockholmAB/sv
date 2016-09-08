@@ -86,11 +86,11 @@
     },
     "upplandsvasby": {
         "heading": "Upplands Väsby",
-        "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
+        "text": "Digital Årsredovisning",
         "article": {
             "heading": "Upplands Väsby",
-            "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
-            "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
+            "preamble": "<p>Med en digital version av Årsredovisningen ville man på ett mer effektivit sätt visa för medborgarna det arbete som genomförts i kommunen under det gångna året. Vad som varit bra och vad som varit mindre bra samt lyfta fram goda exempel. Ytterligare målsättning var att minska mängden trycksaker och öka sin digitala närvaro.</p>",
+            "html": "<p> Lösnignen är skapad i SiteVision och är responsiv i alla kanaler. Utöver bläddringsfunktionalitet finns även en kommentarsfunktion. Här har man valt att använda sig av Disqus pga möjligheten till moderering av inlägg.</p>",
             "links": [
                 { "href": "http://www.upplandsvasby.se", "text": "upplandsvasby.se" },
                 { "href": "#", "text": "Läs mer PDF" }
