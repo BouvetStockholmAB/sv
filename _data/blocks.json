@@ -30,7 +30,7 @@
     },
     "nrm": {
         "heading": "Naturhistoriska riksmuséet",
-        "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
+        "text": "Fossil och evolution En utställning på Naturhistoriska riksmuseet",
         "article": {
             "heading": "Naturhistoriska muséet",
             "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
@@ -38,7 +38,7 @@
             "links": [
                 { "href": "http://utstallning.nrm.se", "text": "utstallning.nrm.se" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+            "quote": "Vi var nöjda med insatserna från systemarkitekt och systemutvecklare, och det löpande arbetet med Bouvet förflöt efter de ganska så komplexa omständigheterna väl."
         },
         "screen": true
     },
