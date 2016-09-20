@@ -58,15 +58,15 @@
     },
     "ale": {
         "heading": "Ale kommun",
-        "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
+        "text": "Ny responsiv webbplats",
         "article": {
             "heading": "Ale kommun",
-            "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
-            "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
+            "preamble": "<p>För Ale kommun skapade vi en responsiv webbplats med nytt utseende med höga krav på tillgänglighet med målgrupperna: Invånare, Företagare och Turister.</p>",
+            "html": "<p>Bouvet samarbetade med SiteImprove för att garantera att siten uppfyller minst nivå AA av WCAG.</p><p>Bouvet tog i samband med designen av webbplatsen även fram en helt ny grafisk profil. Den nya designen gav ett nytt och fräsch utseende med ny funktionalitet, med effektivare och mer användarvänliga flöden där information och tjänster går snabbt och lätt att hitta.</p>",
             "links": [
                 { "href": "http://ale.se", "text": "ale.se" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+            "quote": "Samarbetet med Bouvet har fungerat utmärkt och Ale kommuns hemsida ligger idag bland de 13 främsta av 290 kommuner"
         },
         "screen": true
     },
@@ -80,7 +80,7 @@
             "links": [
                 { "href": "http://www.hassleholm.se", "text": "hassleholm.se" }
             ],
-            "quote": "Finns ingen referens qoute"
+            "quote": ""
         },
         "screen": true
     },
@@ -101,15 +101,15 @@
     },
     "nerikes": {
         "heading": "Nerikes brandkår",
-        "text": "Lorem ipsum dolor sit amet, onsectetur adipiscing elit.",
+        "text": "Ny externwebb och nytt intranät",
         "article": {
             "heading": "Nerikes brandkår",
-            "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
-            "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
+            "preamble": "<p>Uppdraget bestod av att ta fram en ny responsiv design för både externwebb och ett nytt intranät i Sitevision.</p>",
+            "html": "<p>Bouvet började med att genomlysa nuvarande lösning för att se uppenbara brister och funktioner som fungerade bra. Genom analyser av statistik och kartläggning av målgrupperna fick vi ett underlag och en kravlista skapades.</p><p>Utifrån detta underlag och den grafiska manualen gjordes ett koncept med som omvandlades till designskisser. Den nya sidstrukturen arbetades fram utifrån statistik av mest besökta sidor och kategoriserades om för att öka användbarheten.</p>",
             "links": [
                 { "href": "http://nerikesbrandkar.se", "text": "nerikesbrandkar.se" }
             ],
-            "quote": "Nulla non magna id lacus semper elementum in ac eros"
+            "quote": "Förutom att Bouvet tveklöst lever upp till vad jag förväntar mig av en konsultbyrå beträffande kunnande, pålitlighet och professionalism imponeras jag av deras genuina intresse för vår organisation, lyhördhet och vilja att göra det lilla extra för att det ska bli så bra som möjligt."
         },
         "screen": true
     }
