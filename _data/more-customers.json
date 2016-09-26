@@ -2,15 +2,15 @@
     "customers": [
         {
             "name": "Affinion International",
-            "href": "#"
+            "href": "http://www.affinioninternational.se"
         },
         {
             "name": "Arento",
-            "href": "#"
+            "href": "http://www.arento.se"
         },
         {
             "name": "Bergslagens kommunalteknik",
-            "href": "#"
+            "href": "http://www.bergslagens-kt.se"
         },
         {
             "name": "Hässleholms kommun",
@@ -18,59 +18,59 @@
         },
         {
             "name": "Järfälla kommun",
-            "href": "#"
+            "href": "https://www.jarfalla.se"
         },
         {
             "name": "Ale kommun",
-            "href": "#"
+            "href": "www.ale.se"
         },
         {
             "name": "Falkenbergs kommun",
-            "href": "#"
+            "href": "http://www.falkenberg.se"
         },
         {
             "name": "Fria läroverken",
-            "href": "#"
+            "href": "http://www.laroverken.se"
         },
         {
             "name": "Forshaga kommun",
-            "href": "#"
+            "href": "http://www.forshaga.se"
         },
         {
             "name": "Gullspångs kommun",
-            "href": "#"
+            "href": "http://www.gullspang.se/Gullspang/Startsida-Gullspang.html"
         },
         {
             "name": "Kunskapsskolan",
-            "href": "#"
+            "href": "http://www.kunskapsskolan.se"
         },
         {
             "name": "Mariestad kommun",
-            "href": "#"
+            "href": "http://www.mariestad.se/Mariestad/Startsida-Mariestad.html"
         },
         {
             "name": "Nora kommun",
-            "href": "#"
+            "href": "http://www.nora.se"
         },
         {
             "name": "Nykvarns kommun",
-            "href": "#"
+            "href": "http://www.nykvarn.se"
         },
         {
             "name": "Tranås kommun",
-            "href": "#"
+            "href": "http://tranas.se"
         },
         {
             "name": "Töreboda kommun",
-            "href": "#"
+            "href": "http://www.toreboda.se/Toreboda/Startsida-Toreboda.html"
         },
         {
             "name": "Upplands Väsby kommun",
-            "href": "#"
+            "href": "http://www.upplandsvasby.se"
         },
         {
             "name": "Nobina",
-            "href": "#"
+            "href": "http://www.nobina.com"
         }
     ]
 }
