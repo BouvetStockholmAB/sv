@@ -13,7 +13,7 @@ title: Bouvet Team SiteVision
         <div class="ct ct--std" id="references">
             <div class="block block--largeTxtBlock">
                 <h2 class="heading heading--large">Kundreferenser</h2>
-                <p>Här visar vi några urval av case som har hjälpt våra kunder att få nya intranät eller förbättrade webbar. Dessa kan användas som olika inspirerations källor.</p>
+                <p>Nedan visar vi några utvalda case där vi har hjälpt våra kunder med nya intranät eller förbättrade webbar. Dessa kan användas som inspirationskällor.</p>
             </div>
         </div>
         
@@ -75,7 +75,7 @@ title: Bouvet Team SiteVision
     
     <div class="block block--largeTxtBlock block--quoteBlock">
         <div class="ct ct--contentwrap ct--std">
-            <blockquote>Vill du veta mer om vad vi kan göra för er? Hör av dig till oss så får vi se vad vi kan göra för just er.</blockquote>
+            <blockquote>Vill du veta mer om vad vi kan göra för er? Hör av dig till oss.</blockquote>
             <p><a href="mailto:aggi.ahlnas@bouvet.se">aggi.ahlnas@bouvet.se</a></p>
         </div>
     </div>
