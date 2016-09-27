@@ -8,7 +8,7 @@
             "html": "<p>Målgrupperna är främst samverkansparters (både offentliga och privata), forskningsfinansiärer, andra lärosäten samt Högskolan i Halmstads personal (i synnerhet forskare). Några av de viktigaste kraven var att magasinets artiklar skulle vara lätta att läsa och att bilder skulle kunna utnyttjas på ett slagkraftigt sätt. Andra krav var att artiklarna skulle kunna sorteras och presenteras i kategorier som inte speglar lärosätets interna organisation utan snarare vad en extern läsare kan förväntas leta efter. Ett krav var att publiceringsprocessen inte skulle vara för komplicerad, utan vara lätt att lära sig.</p>",
             "links": [
                 { "href": "http://samspel.hh.se", "text": "Se Samspel här" },
-                { "href": "#", "text": "Vad skriver vi här" }
+                { "href": "#", "text": "" }
             ],
             "quote":"Samarbetet med Bouvet var både enkelt och friktionsfritt. Vi bad uttryckligen byrån idéer och komma med egna inspel och förslag och det gjorde de på ett professionellt sätt. Vi är mycket nöjda med samarbetet."
         },
@@ -22,7 +22,7 @@
             "preamble": "<p>Jönköpings kommun satte tre mål för intranätet, det ska skapa förutsättningar och vilja till delaktighet samt underlätta samarbete. Det ska öka engagemanget för verksamhetens utveckling och skapa förståelse för helheten. Det viktigaste målet är att det ska vara ett stöd i det vardagliga arbetet.</p>",
             "html": "<p> Vi har jobbat hårt med att bygga funktionaliteten utifrån användarens perspektiv. Intranätet är så klart responsivt och de verktyg som användaren väljer följer alltid med var hen än befinner sig på intranätet. Dessutom har vi tagit fram en sökfunktion och anpassade vyer där medarbetarens egna förvaltning står i centrum. Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
             "links": [
-                { "href": "#", "text": "Länk?" }
+                { "href": "#", "text": "www.jonkoping.se" }
             ],
             "quote": "Vi gjorde en upphandling där vi vägde samman olika faktorer. Med den utvärderingen som grund föll valet på Bouvet. Bouvet har verkligen levererat mot de krav vi ställde i upphandlingsunderlaget och vi har tillsammans med dem utveckla våra tankar och idéer och de har sett till att vi kunnat göra verklighet av den bild vi hade av vårt nya intranät. Vi har också tillsammans haft ett tydligt lösningsfokus, vilket säkert bidragit till att vi fått ett så pass bra resultat i form av ett intranät vi verkligen är stolta över. Måste också tillägga att inget problem har under det här arbetet varit för litet för att höra av sig om, vilket har gett oss trygghet i utvecklingsarbetet."
         },
@@ -50,7 +50,7 @@
             "preamble": "<p>Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
             "html": "<p>Målgruppen är för det nya intranätet är alla anställda i kommunen. En utav de viktigare kraven var att sidorna skulle ha responsiv web design. Att söket ska fungera och kunna utvecklas utifrån behov. Social collaboration modulen eller ”Grupper” som vi kallar det i Järfälla kommun var även det mycket viktigt och profilsidorna där man kan hitta medarbetare mycket smidigt. Innehållsmässigt har antalet sidor gått från ca 6000 sidor till ca 250 sidor.</p>",
             "links": [
-                { "href": "#", "text": "Länk?" }
+                { "href": "#", "text": "www.jarfalla.se" }
             ],
             "quote": "Det har fungerat mycket bra. Det har varit smidigt, tillmötesgående och inget krångel. Utvecklarna som vi har haft tillgång till i vårt projekt har varit helt fantastiska! Professionella, tålmodiga och lösningsfokuserade."
         },
