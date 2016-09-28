@@ -65,7 +65,7 @@ title: Bouvet Team SiteVision
         
         <div class="ct ct--std" id="the-team">
             <h2 class="tableList__heading">SiteVision-teamet</h2>
-            <p>Lorem ipsum d</p>
+            <p></p>
             <ul class="ct ct--4col teamMembers">
                 {% include_relative _content/the-team.html %}
             </ul>
