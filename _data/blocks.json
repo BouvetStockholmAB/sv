@@ -15,10 +15,10 @@
         "screen": true
     },
     "jonkoping": {
-        "heading": "Jönköping",
+        "heading": "Jönköpings kommun",
         "text": "Mitt intranät",
         "article": {
-            "heading": "Jönköping",
+            "heading": "Jönköpings kommun",
             "preamble": "<p>Jönköpings kommun satte tre mål för intranätet, det ska skapa förutsättningar och vilja till delaktighet samt underlätta samarbete. Det ska öka engagemanget för verksamhetens utveckling och skapa förståelse för helheten. Det viktigaste målet är att det ska vara ett stöd i det vardagliga arbetet.</p>",
             "html": "<p> Vi har jobbat hårt med att bygga funktionaliteten utifrån användarens perspektiv. Intranätet är så klart responsivt och de verktyg som användaren väljer följer alltid med var hen än befinner sig på intranätet. Dessutom har vi tagit fram en sökfunktion och anpassade vyer där medarbetarens egna förvaltning står i centrum. Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
             "links": [
@@ -43,10 +43,10 @@
         "screen": true
     },
     "jarfalla": {
-        "heading": "Järfälla",
+        "heading": "Järfälla kommun",
         "text": "Socialt intranät",
         "article": {
-            "heading": "Järfälla",
+            "heading": "Järfälla kommun",
             "preamble": "<p>Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
             "html": "<p>Målgruppen är för det nya intranätet är alla anställda i kommunen. En utav de viktigare kraven var att sidorna skulle ha responsiv web design. Att söket ska fungera och kunna utvecklas utifrån behov. Social collaboration modulen eller ”Grupper” som vi kallar det i Järfälla kommun var även det mycket viktigt och profilsidorna där man kan hitta medarbetare mycket smidigt. Innehållsmässigt har antalet sidor gått från ca 6000 sidor till ca 250 sidor.</p>",
             "links": [
@@ -71,10 +71,10 @@
         "screen": true
     },
     "hassleholm": {
-        "heading": "Hässleholm",
+        "heading": "Hässleholms kommun",
         "text": "Framtidens webb",
         "article": {
-            "heading": "Hässleholm",
+            "heading": "Hässleholms kommun",
             "preamble": "<p>Målsättningen med den nya webbplatsen är att göra det möjligt för besökarna att hitta rätt information och utföra sina ärenden på de tider som passar dem. Den nya webben ska även underlätta kontakten med kommunen samt öka möjligheterna till att tycka till och påverka kommunens arbete.</p>",
             "html": "<p>Webbplatsen är responsiv och fungerar lika bra på desktop som i mobila enheter. Webben är tillgänglighetsanpassad med fokus på att så många som möjligt ska kunna ta del av informationen och tjänsterna på hassleholm.se.</p>",
             "links": [
@@ -85,10 +85,10 @@
         "screen": true
     },
     "upplandsvasby": {
-        "heading": "Upplands Väsby",
+        "heading": "Upplands Väsby kommun",
         "text": "Digital Årsredovisning",
         "article": {
-            "heading": "Upplands Väsby",
+            "heading": "Upplands Väsby kommun",
             "preamble": "<p>Med en digital version av Årsredovisningen ville man på ett mer effektivit sätt visa för medborgarna det arbete som genomförts i kommunen under det gångna året. Vad som varit bra och vad som varit mindre bra samt lyfta fram goda exempel. Ytterligare målsättning var att minska mängden trycksaker och öka sin digitala närvaro.</p>",
             "html": "<p> Lösnignen är skapad i SiteVision och är responsiv i alla kanaler. Utöver bläddringsfunktionalitet finns även en kommentarsfunktion. Här har man valt att använda sig av Disqus pga möjligheten till moderering av inlägg.</p>",
             "links": [
