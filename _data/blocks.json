@@ -33,8 +33,8 @@
         "text": "Fossil och evolution -En utställning på Naturhistoriska riksmuseet",
         "article": {
             "heading": "Naturhistoriska muséet",
-            "preamble": "<p>Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros.</p>",
-            "html": "<p>Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros. Lorem ipsum dolor sit amet, onsectetur adipiscing elit. Nulla non magna id lacus semper elementum in ac eros...Lorem ipsum dolor sit amet, onsectetur adipiscing elit.</p>",
+            "preamble": "<p> Webben är en del av museets utställning Fossil och evolution. Men den är också en upplevelse på egen hand.</p>",
+            "html": "<p> Utställningswebben är indelad efter tidsperioder. Du kan följa evolutionen från det att tidsperioden som kallas ediacara inleds 635 miljoner år före nutid, till paleogen och neogen som slutade för 2,6 miljoner år sedan. På startsidan följer du tidslinjen och bläddrar mellan de olika tidsperioderna i sidled. Sedan kan du klicka dig vidare och läsa om evolutionen under perioden, eller titta närmare på djur och fossil.</p>",
             "links": [
                 { "href": "http://utstallning.nrm.se", "text": "utstallning.nrm.se" }
             ],
