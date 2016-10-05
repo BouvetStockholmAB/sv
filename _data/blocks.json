@@ -7,8 +7,7 @@
             "preamble": "<p>Magasinet Samspel finns till för att på ett enkelt och begripligt sätt sprida kunskap om Högskolans forskning och dess resultat.</p>",
             "html": "<p>Målgrupperna är främst samverkansparters (både offentliga och privata), forskningsfinansiärer, andra lärosäten samt Högskolan i Halmstads personal (i synnerhet forskare). Några av de viktigaste kraven var att magasinets artiklar skulle vara lätta att läsa och att bilder skulle kunna utnyttjas på ett slagkraftigt sätt. Andra krav var att artiklarna skulle kunna sorteras och presenteras i kategorier som inte speglar lärosätets interna organisation utan snarare vad en extern läsare kan förväntas leta efter. Ett krav var att publiceringsprocessen inte skulle vara för komplicerad, utan vara lätt att lära sig.</p>",
             "links": [
-                { "href": "http://samspel.hh.se", "text": "Se Samspel här" },
-                { "href": "#", }
+                { "href": "http://samspel.hh.se", "text": "Se Samspel här" }
             ],
             "quote":"Samarbetet med Bouvet var både enkelt och friktionsfritt. Vi bad uttryckligen byrån idéer och komma med egna inspel och förslag och det gjorde de på ett professionellt sätt. Vi är mycket nöjda med samarbetet."
         },
@@ -21,22 +20,19 @@
             "heading": "Jönköpings kommun",
             "preamble": "<p>Jönköpings kommun satte tre mål för intranätet, det ska skapa förutsättningar och vilja till delaktighet samt underlätta samarbete. Det ska öka engagemanget för verksamhetens utveckling och skapa förståelse för helheten. Det viktigaste målet är att det ska vara ett stöd i det vardagliga arbetet.</p>",
             "html": "<p> Vi har jobbat hårt med att bygga funktionaliteten utifrån användarens perspektiv. Intranätet är så klart responsivt och de verktyg som användaren väljer följer alltid med var hen än befinner sig på intranätet. Dessutom har vi tagit fram en sökfunktion och anpassade vyer där medarbetarens egna förvaltning står i centrum. Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
-            "links": [
-                { "href": "#", "text": "www.jonkoping.se" }
-            ],
             "quote": "Vi gjorde en upphandling där vi vägde samman olika faktorer. Med den utvärderingen som grund föll valet på Bouvet. Bouvet har verkligen levererat mot de krav vi ställde i upphandlingsunderlaget och vi har tillsammans med dem utveckla våra tankar och idéer och de har sett till att vi kunnat göra verklighet av den bild vi hade av vårt nya intranät. Vi har också tillsammans haft ett tydligt lösningsfokus, vilket säkert bidragit till att vi fått ett så pass bra resultat i form av ett intranät vi verkligen är stolta över. Måste också tillägga att inget problem har under det här arbetet varit för litet för att höra av sig om, vilket har gett oss trygghet i utvecklingsarbetet."
         },
         "screen": true
     },
     "nrm": {
         "heading": "Naturhistoriska riksmuséet",
-        "text": "Fossil och evolution -En utställning på Naturhistoriska riksmuseet",
+        "text": "Fossil och evolution - En utställning på Naturhistoriska riksmuseet",
         "article": {
             "heading": "Naturhistoriska muséet",
             "preamble": "<p> Webben är en del av museets utställning Fossil och evolution. Men den är också en upplevelse på egen hand.</p>",
             "html": "<p> Utställningswebben är indelad efter tidsperioder. Du kan följa evolutionen från det att tidsperioden som kallas ediacara inleds 635 miljoner år före nutid, till paleogen och neogen som slutade för 2,6 miljoner år sedan. På startsidan följer du tidslinjen och bläddrar mellan de olika tidsperioderna i sidled. Sedan kan du klicka dig vidare och läsa om evolutionen under perioden, eller titta närmare på djur och fossil.</p>",
             "links": [
-                { "href": "http://utstallning.nrm.se", "text": "utstallning.nrm.se" }
+                { "href": "http://utstallning.nrm.se", "text": "Se utställningswebben här" }
             ],
             "quote": "Vi var nöjda med insatserna från systemarkitekt och systemutvecklare, och det löpande arbetet med Bouvet förflöt efter de ganska så komplexa omständigheterna väl."
         },
@@ -50,7 +46,7 @@
             "preamble": "<p>Intranätet ska främja samarbete mellan medarbetare inom Järfälla kommun oavsett organisationstillhörighet.</p>",
             "html": "<p>Målgruppen är för det nya intranätet är alla anställda i kommunen. En utav de viktigare kraven var att sidorna skulle ha responsiv web design. Att söket ska fungera och kunna utvecklas utifrån behov. Social collaboration modulen eller ”Grupper” som vi kallar det i Järfälla kommun var även det mycket viktigt och profilsidorna där man kan hitta medarbetare mycket smidigt. Innehållsmässigt har antalet sidor gått från ca 6000 sidor till ca 250 sidor.</p>",
             "links": [
-                { "href": "#", "text": "www.jarfalla.se" }
+                { "href": "https://www.youtube.com/watch?v=4SNocv45pgM", "text": "Se film om intranätet här" }
             ],
             "quote": "Det har fungerat mycket bra. Det har varit smidigt, tillmötesgående och inget krångel. Utvecklarna som vi har haft tillgång till i vårt projekt har varit helt fantastiska! Professionella, tålmodiga och lösningsfokuserade."
         },
@@ -64,7 +60,7 @@
             "preamble": "<p>För Ale kommun skapade vi en responsiv webbplats med nytt utseende med höga krav på tillgänglighet med målgrupperna: Invånare, Företagare och Turister.</p>",
             "html": "<p>Bouvet samarbetade med SiteImprove för att garantera att siten uppfyller minst nivå AA av WCAG.</p><p>Bouvet tog i samband med designen av webbplatsen även fram en helt ny grafisk profil. Den nya designen gav ett nytt och fräsch utseende med ny funktionalitet, med effektivare och mer användarvänliga flöden där information och tjänster går snabbt och lätt att hitta.</p>",
             "links": [
-                { "href": "http://ale.se", "text": "ale.se" }
+                { "href": "http://ale.se", "text": "Besök ale.se" }
             ],
             "quote": "Samarbetet med Bouvet har fungerat utmärkt och Ale kommuns hemsida ligger idag bland de 13 främsta av 290 kommuner"
         },
@@ -78,9 +74,8 @@
             "preamble": "<p>Målsättningen med den nya webbplatsen är att göra det möjligt för besökarna att hitta rätt information och utföra sina ärenden på de tider som passar dem. Den nya webben ska även underlätta kontakten med kommunen samt öka möjligheterna till att tycka till och påverka kommunens arbete.</p>",
             "html": "<p>Webbplatsen är responsiv och fungerar lika bra på desktop som i mobila enheter. Webben är tillgänglighetsanpassad med fokus på att så många som möjligt ska kunna ta del av informationen och tjänsterna på hassleholm.se.</p>",
             "links": [
-                { "href": "http://www.hassleholm.se", "text": "hassleholm.se" }
-            ],
-            "quote": ""
+                { "href": "http://www.hassleholm.se", "text": "Besök hassleholm.se" }
+            ]
         },
         "screen": true
     },
@@ -92,8 +87,7 @@
             "preamble": "<p>Med en digital version av Årsredovisningen ville man på ett mer effektivit sätt visa för medborgarna det arbete som genomförts i kommunen under det gångna året. Vad som varit bra och vad som varit mindre bra samt lyfta fram goda exempel. Ytterligare målsättning var att minska mängden trycksaker och öka sin digitala närvaro.</p>",
             "html": "<p> Lösnignen är skapad i SiteVision och är responsiv i alla kanaler. Utöver bläddringsfunktionalitet finns även en kommentarsfunktion. Här har man valt att använda sig av Disqus pga möjligheten till moderering av inlägg.</p>",
             "links": [
-                { "href": "http://www.upplandsvasby.se", "text": "upplandsvasby.se" },
-                { "href": "#", "text": "Läs mer PDF" }
+                { "href": "https://www.upplandsvasby.se/ar2", "text": "Se årsredovisningen här" }
             ],
             "quote":"Vi ser en stor potential och vi har ambitionen att jobba brett med att utveckla våra digitala lösningar. Efter det goda utfallet med årsredovisningen pratas det redan om att göra exempelvis flerårsplanen digital och interaktiv. Detta arbete pågår redan med kommunens översiktsplan. I mångt och mycket handlar det om att lyfta över traditionella dokument och arbetssätt in i en digital miljö. Vår främsta prio är att göra informationen tillgänglig,  lättbegriplig och att minska avståndet mellan kommun och medborgare samt öka transparensen och delaktigheten."
         },
@@ -107,7 +101,7 @@
             "preamble": "<p>Uppdraget bestod av att ta fram en ny responsiv design för både externwebb och ett nytt intranät i Sitevision.</p>",
             "html": "<p>Bouvet började med att genomlysa nuvarande lösning för att se uppenbara brister och funktioner som fungerade bra. Genom analyser av statistik och kartläggning av målgrupperna fick vi ett underlag och en kravlista skapades.</p><p>Utifrån detta underlag och den grafiska manualen gjordes ett koncept med som omvandlades till designskisser. Den nya sidstrukturen arbetades fram utifrån statistik av mest besökta sidor och kategoriserades om för att öka användbarheten.</p>",
             "links": [
-                { "href": "http://nerikesbrandkar.se", "text": "nerikesbrandkar.se" }
+                { "href": "http://www.nerikesbrandkar.se/", "text": "Besök nerikesbrandkar.se" }
             ],
             "quote": "Förutom att Bouvet tveklöst lever upp till vad jag förväntar mig av en konsultbyrå beträffande kunnande, pålitlighet och professionalism imponeras jag av deras genuina intresse för vår organisation, lyhördhet och vilja att göra det lilla extra för att det ska bli så bra som möjligt."
         },

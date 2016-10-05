@@ -64,7 +64,7 @@ title: Bouvet Team SiteVision
         </div>
         
         <div class="ct ct--std" id="the-team">
-            <h2 class="tableList__heading">SiteVision-teamet</h2>
+            <h2 class="tableList__heading">Webbteamet</h2>
             <p></p>
             <ul class="ct ct--4col teamMembers">
                 {% include_relative _content/the-team.html %}
@@ -76,7 +76,7 @@ title: Bouvet Team SiteVision
     <div class="block block--largeTxtBlock block--quoteBlock">
         <div class="ct ct--contentwrap ct--std">
             <blockquote>Vill du veta mer om vad vi kan göra för er? Hör av dig till oss.</blockquote>
-            <p><a href="mailto:aggi.ahlnas@bouvet.se">aggi.ahlnas@bouvet.se</a></p>
+            <p><a href="mailto:webteam@bouvet.se">webteam@bouvet.se</a></p>
         </div>
     </div>
     
