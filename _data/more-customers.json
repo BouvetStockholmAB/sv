@@ -5,12 +5,27 @@
             "href": "http://www.affinioninternational.se"
         },
         {
+            "name": "Ale kommun",
+            "href": "http://www.ale.se"
+        },
+        {
             "name": "Arento",
             "href": "http://www.arento.se"
         },
         {
             "name": "Bergslagens kommunalteknik",
             "href": "http://www.bergslagens-kt.se"
+        },
+        {
+            "name": "Falkenbergs kommun",
+            "href": "http://www.falkenberg.se"
+        },
+        {
+            "name": "Famna"
+        }
+        {
+            "name": "Forshaga kommun",
+            "href": "http://www.forshaga.se"
         },
         {
             "name": "Hässleholms kommun",
@@ -21,32 +36,11 @@
             "href": "https://www.jarfalla.se"
         },
         {
-            "name": "Ale kommun",
-            "href": "http://www.ale.se"
-        },
-        {
-            "name": "Falkenbergs kommun",
-            "href": "http://www.falkenberg.se"
-        },
-        {
-            "name": "Fria läroverken",
-            "href": "http://www.laroverken.se"
-        },
-        {
-            "name": "Forshaga kommun",
-            "href": "http://www.forshaga.se"
-        },
-        {
-            "name": "Gullspångs kommun",
-            "href": "http://www.gullspang.se/Gullspang/Startsida-Gullspang.html"
-        },
-        {
             "name": "Kunskapsskolan",
             "href": "http://www.kunskapsskolan.se"
         },
         {
-            "name": "Mariestad kommun",
-            "href": "http://www.mariestad.se/Mariestad/Startsida-Mariestad.html"
+            "name": "Nobina (intranät)"
         },
         {
             "name": "Nora kommun",
@@ -57,20 +51,19 @@
             "href": "http://www.nykvarn.se"
         },
         {
+            "name": "Svevia",
+            "href": "http://www.svevia.se/"
+        }
+        {
             "name": "Tranås kommun",
             "href": "http://tranas.se"
-        },
-        {
-            "name": "Töreboda kommun",
-            "href": "http://www.toreboda.se/Toreboda/Startsida-Toreboda.html"
         },
         {
             "name": "Upplands Väsby kommun",
             "href": "http://www.upplandsvasby.se"
         },
         {
-            "name": "Nobina (intranät)",
-            "href": "#more-customers"
+            "name": "Vetenskapsrådet (intranät)"
         }
     ]
 }
