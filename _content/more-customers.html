@@ -1,7 +1,11 @@
 <ul class="tableList tableList--3cols">
     {% for link in site.data.more-customers.customers %}
     <li class="tableList__item">
+        {% if link.href %}
         <a href="{{ link.href }}" class="tableList__lnk">{{ link.name }}</a>
+        {% else %}
+        <span class="tableList__txt">{{ link.name }}</span>
+        {% endif %}
     </li>
     {% endfor %}
 </ul>
