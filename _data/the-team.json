@@ -32,6 +32,14 @@
             "email": "joakim.wahlander@bouvet.se",
             "img": "joakim",
             "position": "54°26'39\"S 3°24'18\"E"
+        },
+        "linda": {
+            "name": "Linda Karlsson",
+            "title": "Projektledare",
+            "about": "Linda är en projektledare och certifierad scrum master. Hon har 9 års erfarenhet av IT branschen med system- och verksamhetslösningar och är en erfaren projektledare med ledning och verksamhetskompetens. Hon har erfarenhet av att leda många och komplexa IT projekt parallellt och även erfarenhet av utveckling och förvaltning av verksamhetssystem. Hon har också teknisk kunskap inom en mängd områden. Linda har ansvar för och driver de olika webprojekten i teamet från uppstart till driftsättning.",
+            "email": "linda.karlsson@bouvet.se",
+            "img": "linda",
+            "position": "54°23'52\"S 3°20'1\"E"
         }
     }
 }

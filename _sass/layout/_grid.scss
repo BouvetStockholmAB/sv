@@ -87,7 +87,8 @@
         }
     }
 
-    &--4col {
+    &--4col,
+    &--5col {
 
         @include media-x-small-and-up {
             @include columns;
@@ -100,9 +101,18 @@
             }
 
         }
+    }
 
+    &--4col {
         @include media-medium-and-up {
             flex-wrap: nowrap;
         }
     }
+
+    &--5col {
+        @include media-large-and-up {
+            flex-wrap: nowrap;
+        }
+    }
+
 }

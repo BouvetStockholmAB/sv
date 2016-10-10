@@ -245,16 +245,21 @@ ul.teamMembers {
 
         @media (min-width: 768px) {
             font-size: rem( 12px, true );
-            font-size: 1.75vw;
+            font-size: 2.45vw;
+        }
+
+        @media (min-width: 940px) {
+            font-size: rem( 12px, true );
+            font-size: 1.35vw;
         }
 
         @media (min-width: 1338px) {
-            font-size: rem( 24px, true );
+            font-size: rem( 18px, true );
         }
     }
 
     &__img {
-
+        width: 100%;
     }
 
     &__pos {
