@@ -63,6 +63,7 @@ title: Bouvet Team SiteVision
             </div>
         </div>
         
+        {% comment %}
         <div class="ct ct--std" id="the-team">
             <h2 class="tableList__heading">Webbteamet</h2>
             <p></p>
@@ -70,6 +71,7 @@ title: Bouvet Team SiteVision
                 {% include_relative _content/the-team.html %}
             </ul>
         </div>
+        {% endcomment %}
         
     </div>
     

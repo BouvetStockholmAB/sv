@@ -5,7 +5,7 @@
     {% comment %}
     <div class="category">{{ aggi.title }}</div>
     {% endcomment %}
-    <div><a class="tel" href="tel:{{ aggi.tel | replace: " ", "" | cgi_escape }}">{{ aggi.tel }}</a></div>
+    <div><a class="tel" href="tel:{{ aggi.tel | replace: " ", "" | replace: "(0)", "" | replace: "-", "" | cgi_escape }}">{{ aggi.tel }}</a></div>
     <div><a class="email" href="mailto:{{ aggi.email }}">{{ aggi.email }}</a></div>
 </div>
 
