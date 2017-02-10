@@ -2,8 +2,8 @@
 
 .logo {
     @include imageReplace( 82px, 23px );
+    @extend %bouvet-logo-svg;
     background: {
-        image: data-uri( "bouvet-logo.svg" );
         position: 50% 50%;
         size: 100% auto;
         repeat: no-repeat;
@@ -11,8 +11,6 @@
 
     .fixed &,
     &--white {
-        background: {
-            image: data-uri( "bouvet-logo-white.svg" );
-        }
+        @extend %bouvet-logo-white-svg;
     }
 }

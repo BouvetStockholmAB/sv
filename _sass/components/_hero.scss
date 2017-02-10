@@ -84,9 +84,12 @@
     &__imgTxt {
         min-height: 50%;
         display: flex;
+        position: relative;
+        flex-basis: 100%;
+        width: 100%;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
     }
 
     &__content {
@@ -188,6 +191,11 @@
 
     &__heading {
         margin: 0;
+        @include imageReplace( 130px, 35px );
+        @extend %bouvet-logo-white-svg;
+        position: absolute;
+        top: 30px;
+        left: 0;
         font: {
             size: rem( 70px, true );
             weight: 700;
@@ -202,13 +210,15 @@
     &__tagline {
         margin: 0;
         font: {
-            size: rem( 22px, true );
+            size: vw( 13px, 320px );
             weight: 400;
         }
-        color: $white; // $black;
+        color: $white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
 
-        @include media-up-to-small {
-            font-size: rem( 18px, true );
+        @include media-x-large-and-up {
+            font-size: rem( 50px, true );
         }
     }
 }
